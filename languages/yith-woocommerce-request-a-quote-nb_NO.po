@@ -1,0 +1,3390 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: YITH Woocommerce Request A Quote Premium v1.5.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-03-06 14:13+0100\n"
+"PO-Revision-Date: 2017-03-06 14:13+0100\n"
+"Last-Translator: keymaster <rune.kristoffersen@yahoo.no>\n"
+"Language-Team: \n"
+"Language: nb_NO\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 1.8.7.1\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-SearchPath-0: .\n"
+
+# @ yith-woocommerce-request-a-quote
+# @ yith-plugin-fw
+#: includes/class.yith-request-quote-admin.php:173
+#: includes/class.yith-request-quote-admin.php:280
+#: plugin-fw/lib/yit-cpt-unlimited.php:1048
+#: plugin-fw/lib/yit-cpt-unlimited.php:1196
+#: plugin-fw/lib/yit-cpt-unlimited.php:1202
+#: plugin-fw/lib/yit-plugin-panel.php:74
+#: plugin-options/metabox/ywraq-metabox-order.php:109
+#: plugin-options/metabox/ywraq-metabox.php:24
+msgid "Settings"
+msgstr "Innstillinger"
+
+# @ yith-woocommerce-request-a-quote
+#: includes/class.yith-request-quote-admin.php:177
+#: includes/class.yith-request-quote-admin.php:282
+msgid "Premium Version"
+msgstr "Premium versjon"
+
+# @ yith-woocommerce-request-a-quote
+#: includes/class.yith-request-quote-admin.php:179
+msgid "Layout"
+msgstr "Utseende"
+
+# @ yith-woocommerce-request-a-quote
+#: includes/class.yith-request-quote-admin.php:180
+msgid "Form Settings"
+msgstr "Skjemainnstillinger"
+
+# @ yith-woocommerce-request-a-quote
+#: includes/class.yith-request-quote-admin.php:181
+msgid "Quote Settings"
+msgstr "Tilbudsinnstillinger"
+
+# @ yith-woocommerce-request-a-quote
+#: includes/class.yith-request-quote-admin.php:182
+msgid "PDF Quote"
+msgstr "PDF Tilbud"
+
+# @ yith-woocommerce-request-a-quote
+#: includes/class.yith-request-quote-admin.php:183
+msgid "Exclusion List"
+msgstr "Ekskluderingsliste"
+
+# @ yith-woocommerce-request-a-quote
+# @ yit
+#: includes/class.yith-request-quote-admin.php:189
+#: includes/class.yith-request-quote-admin.php:190
+#: includes/class.yith-request-quote-admin.php:239
+#: plugin-options/settings-options.php:24
+#: templates/emails/request-quote-table.php:19
+msgid "Request a Quote"
+msgstr "Innhent pristilbud"
+
+# @ yit
+#: includes/class.yith-request-quote-admin.php:238
+msgctxt "page_slug"
+msgid "request-quote"
+msgstr ""
+
+# @ yith-woocommerce-request-a-quote
+#: includes/class.yith-request-quote-admin.php:306
+msgid "Plugin Documentation"
+msgstr "Plugin dokumentasjon"
+
+# @ yith-woocommerce-request-a-quote
+#: includes/class.yith-request-quote-admin.php:339
+msgid "YITH WooCommerce Request a Quote"
+msgstr "YITH WooCommerce Request a Quote"
+
+# @ yith-woocommerce-request-a-quote
+#: includes/class.yith-request-quote-admin.php:343
+msgid ""
+"WooCommerce coupon system has been disabled. In order to make YITH "
+"WooCommerce Request a Quote work correctly, you have to enable coupons."
+msgstr ""
+"WooCommerce rabattkupong funksjonen er deaktivert. For at YITH WooCommerce "
+"Request a Quote skal fungere korrekt, må du aktivere rabattkupong funksjonen."
+
+# @ yith-woocommerce-request-a-quote
+#: includes/class.yith-request-quote-admin.php:347
+msgid "Enable the use of coupons"
+msgstr "Aktiver bruken av rabattkuponger"
+
+# @ yith-woocommerce-request-a-quote
+#: includes/class.yith-request-quote-frontend.php:273
+#: includes/functions.yith-request-quote.php:635
+msgid "Browse the list"
+msgstr "Send inn dine forespørsler"
+
+# @ yith-woocommerce-request-a-quote
+#: includes/class.yith-request-quote-premium.php:473
+msgid "You must be logged in to access this page"
+msgstr "Du må være innlogget for å få tilgang til denne siden"
+
+# @ yith-woocommerce-request-a-quote
+#: includes/class.yith-request-quote.php:350
+#: includes/class.yith-request-quote.php:556
+#: includes/class.yith-request-quote.php:670
+#: includes/class.yith-request-quote.php:764
+msgid "Product already in the list."
+msgstr "En prisforespørsel er allerede opprettet for dette produktet."
+
+# @ yith-woocommerce-request-a-quote
+#: includes/class.yith-request-quote.php:546
+msgid "Error occurred while adding product to Request a Quote list."
+msgstr ""
+"Det oppsto en feil mens du prøvde å legge til produkter i \"Innhent tilbud\" "
+"listen."
+
+# @ yith-woocommerce-request-a-quote
+#: includes/class.yith-request-quote.php:553
+msgid "Product added!"
+msgstr "Din prisforespørsel ble opprettet!"
+
+#: includes/class.yith-request-quote.php:645
+#, php-format
+msgid "%s is a required field"
+msgid_plural "%s are required fields"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/class.yith-request-quote.php:649
+msgid "Please choose product options&hellip;"
+msgstr ""
+
+#: includes/class.yith-request-quote.php:667
+msgid "Product added to the list!"
+msgstr ""
+
+# @ yith-woocommerce-request-a-quote
+#: includes/class.yith-request-quote.php:762
+msgid "This product is not quotable."
+msgstr "Dette produktet er ikke tilgjengelig for prisforespørsel."
+
+# @ yith-woocommerce-request-a-quote
+#: includes/class.yith-request-quote.php:839
+msgid "Please enter a name"
+msgstr "Vennligst, skriv inn et navn"
+
+# @ yith-woocommerce-request-a-quote
+#: includes/class.yith-request-quote.php:843
+msgid "Please enter a valid email"
+msgstr "Vennligst, skriv inn en gyldig e-postadresse"
+
+# @ yith-woocommerce-request-a-quote
+#: includes/class.yith-request-quote.php:847
+msgid "An account is already registered with your email address. Please login."
+msgstr ""
+"En konto er allerede opprettet med denne e-postadressen. Vennligst, logg inn."
+
+# @ yith-woocommerce-request-a-quote
+#: includes/class.yith-request-quote.php:851
+#: includes/class.yith-request-quote.php:857
+#: includes/class.yith-request-quote.php:863
+#, php-format
+msgid "Please enter a value for %s"
+msgstr "Vennligst, skriv inn en verdi for %s"
+
+# @ yith-woocommerce-request-a-quote
+#: includes/class.yith-request-quote.php:941
+#: includes/emails/class.yith-ywraq-send-email-request-quote.php:100
+msgid "There was a problem sending your request. Please try again."
+msgstr ""
+"Det oppsto et problem under sending av din forespørsel. Vennligst, prøv på "
+"nytt."
+
+# @ yith-woocommerce-request-a-quote
+#: includes/class.yith-ywraq-cron.php:108
+msgid "YITH WooCommerce Request a Quote Cron"
+msgstr "YITH WooCommerce Innhent pristilbud cron"
+
+# @ yith-woocommerce-request-a-quote
+#: includes/class.yith-ywraq-custom-table.php:56
+#: templates/admin/exclusions-table.php:55 templates/emails/quote-table.php:31
+#: templates/emails/request-quote-table.php:30
+#: templates/myaccount/view-quote.php:117 templates/pdf/quote-table.php:38
+#: templates/request-quote-view.php:23
+msgid "Product"
+msgstr "Produkt"
+
+# @ yith-woocommerce-request-a-quote
+#: includes/class.yith-ywraq-custom-table.php:57
+msgid "Hide \"Add to Quote\""
+msgstr "Skjul \"Innhent pristilbud\""
+
+# @ yith-woocommerce-request-a-quote
+#: includes/class.yith-ywraq-order-request.php:382
+#: includes/wc_2.6.x/class.yith-ywraq-order-request.php:389
+#: templates/pdf/quote-header.php:76
+#, php-format
+msgid "Quote #%s"
+msgstr "Tilbud #%s"
+
+# @ yith-woocommerce-request-a-quote
+#: includes/class.yith-ywraq-order-request.php:426
+#: includes/class.yith-ywraq-order-request.php:482
+#: includes/class.yith-ywraq-order-request.php:496
+#: includes/wc_2.6.x/class.yith-ywraq-order-request.php:432
+#: includes/wc_2.6.x/class.yith-ywraq-order-request.php:488
+#: includes/wc_2.6.x/class.yith-ywraq-order-request.php:502
+msgid "New Quote Request"
+msgstr "Ny prisforespørsel"
+
+# @ yith-woocommerce-request-a-quote
+#: includes/class.yith-ywraq-order-request.php:431
+#: includes/wc_2.6.x/class.yith-ywraq-order-request.php:437
+#, php-format
+msgid "New Quote Request <span class=\"count\">(%s)</span>"
+msgid_plural "New Quote Requests <span class=\"count\">(%s)</span>"
+msgstr[0] "Ny prisforespørsel <span class=\"count\">(%s)</span>"
+msgstr[1] "Nye prisforespørsler <span class=\"count\">(%s)</span>"
+
+# @ yith-woocommerce-request-a-quote
+#: includes/class.yith-ywraq-order-request.php:435
+#: includes/class.yith-ywraq-order-request.php:483
+#: includes/class.yith-ywraq-order-request.php:497
+#: includes/wc_2.6.x/class.yith-ywraq-order-request.php:441
+#: includes/wc_2.6.x/class.yith-ywraq-order-request.php:489
+#: includes/wc_2.6.x/class.yith-ywraq-order-request.php:503
+msgid "Pending Quote"
+msgstr "Avventende tilbud"
+
+# @ yith-woocommerce-request-a-quote
+#: includes/class.yith-ywraq-order-request.php:440
+#: includes/wc_2.6.x/class.yith-ywraq-order-request.php:446
+#, php-format
+msgid "Pending Quote <span class=\"count\">(%s)</span>"
+msgid_plural "Pending Quote <span class=\"count\">(%s)</span>"
+msgstr[0] "Avventende forespørsel <span class=\"count\">(%s)</span>"
+msgstr[1] "Avventende forespørsler <span class=\"count\">(%s)</span>"
+
+# @ yith-woocommerce-request-a-quote
+#: includes/class.yith-ywraq-order-request.php:444
+#: includes/class.yith-ywraq-order-request.php:484
+#: includes/class.yith-ywraq-order-request.php:498
+#: includes/wc_2.6.x/class.yith-ywraq-order-request.php:450
+#: includes/wc_2.6.x/class.yith-ywraq-order-request.php:490
+#: includes/wc_2.6.x/class.yith-ywraq-order-request.php:504
+msgid "Expired Quote"
+msgstr "Utløpt tilbud"
+
+# @ yith-woocommerce-request-a-quote
+#: includes/class.yith-ywraq-order-request.php:449
+#: includes/wc_2.6.x/class.yith-ywraq-order-request.php:455
+#, php-format
+msgid "Expired Quote <span class=\"count\">(%s)</span>"
+msgid_plural "Expired Quotes <span class=\"count\">(%s)</span>"
+msgstr[0] "Utløpte tilbud <span class=\"count\">(%s)</span>"
+msgstr[1] "Utløpte tilbud <span class=\"count\">(%s)</span>"
+
+# @ yith-woocommerce-request-a-quote
+#: includes/class.yith-ywraq-order-request.php:453
+#: includes/class.yith-ywraq-order-request.php:485
+#: includes/class.yith-ywraq-order-request.php:499
+#: includes/wc_2.6.x/class.yith-ywraq-order-request.php:459
+#: includes/wc_2.6.x/class.yith-ywraq-order-request.php:491
+#: includes/wc_2.6.x/class.yith-ywraq-order-request.php:505
+msgid "Accepted Quote"
+msgstr "Akseptert tilbud"
+
+# @ yith-woocommerce-request-a-quote
+#: includes/class.yith-ywraq-order-request.php:458
+#: includes/wc_2.6.x/class.yith-ywraq-order-request.php:464
+#, php-format
+msgid "Accepted Quote <span class=\"count\">(%s)</span>"
+msgid_plural "Accepted Quote <span class=\"count\">(%s)</span>"
+msgstr[0] "Akseptert tilbud <span class=\"count\">(%s)</span>"
+msgstr[1] "Aksepterte tilbud <span class=\"count\">(%s)</span>"
+
+# @ yith-woocommerce-request-a-quote
+#: includes/class.yith-ywraq-order-request.php:462
+#: includes/class.yith-ywraq-order-request.php:486
+#: includes/class.yith-ywraq-order-request.php:500
+#: includes/wc_2.6.x/class.yith-ywraq-order-request.php:468
+#: includes/wc_2.6.x/class.yith-ywraq-order-request.php:492
+#: includes/wc_2.6.x/class.yith-ywraq-order-request.php:506
+msgid "Rejected Quote"
+msgstr "Tilbudet avvist"
+
+# @ yith-woocommerce-request-a-quote
+#: includes/class.yith-ywraq-order-request.php:467
+#: includes/wc_2.6.x/class.yith-ywraq-order-request.php:473
+#, php-format
+msgid "Rejected Quote <span class=\"count\">(%s)</span>"
+msgid_plural "Rejected Quote <span class=\"count\">(%s)</span>"
+msgstr[0] "Avviste tilbud <span class=\"count\">(%s)</span>"
+msgstr[1] "Avviste tilbud <span class=\"count\">(%s)</span>"
+
+#: includes/class.yith-ywraq-order-request.php:667
+#: includes/wc_2.6.x/class.yith-ywraq-order-request.php:668
+#, php-format
+msgid "Error %d: Unable to create the order. Please try again."
+msgstr ""
+
+#: includes/class.yith-ywraq-order-request.php:674
+#: includes/wc_2.6.x/class.yith-ywraq-order-request.php:675
+msgid "Sorry, invalid shipping method."
+msgstr ""
+
+# @ yith-woocommerce-request-a-quote
+#: includes/class.yith-ywraq-order-request.php:940
+#: includes/wc_2.6.x/class.yith-ywraq-order-request.php:974
+msgid "Send the Quote"
+msgstr "Send tilbudet"
+
+#: includes/class.yith-ywraq-order-request.php:981
+#: includes/wc_2.6.x/class.yith-ywraq-order-request.php:1012
+#, php-format
+msgid "<p><a href=\"%s\">Add a new Quote</a></p>"
+msgstr ""
+
+# @ yith-woocommerce-request-a-quote
+#: includes/class.yith-ywraq-order-request.php:1120
+#: includes/wc_2.6.x/class.yith-ywraq-order-request.php:1163
+msgid "An error as occurred creating your request. Please try again."
+msgstr ""
+"Det har oppstått en feil under oppretting av forespørselen. Vennligst, prøv "
+"på nytt."
+
+# @ yith-woocommerce-request-a-quote
+#: includes/class.yith-ywraq-order-request.php:1265
+#: includes/class.yith-ywraq-order-request.php:1296
+#: includes/class.yith-ywraq-order-request.php:1319
+#: includes/wc_2.6.x/class.yith-ywraq-order-request.php:1307
+#: includes/wc_2.6.x/class.yith-ywraq-order-request.php:1350
+msgid "An error occurred. Please, contact site administrator"
+msgstr "En feil oppsto. Vennligst, kontakt nettstedets administrator"
+
+# @ yith-woocommerce-request-a-quote
+#: includes/class.yith-ywraq-order-request.php:1330
+#: includes/functions.yith-request-quote.php:356
+#: includes/wc_2.6.x/class.yith-ywraq-order-request.php:1361
+msgid "rejected"
+msgstr "Avvist"
+
+# @ yith-woocommerce-request-a-quote
+#: includes/class.yith-ywraq-order-request.php:1395
+#: includes/wc_2.6.x/class.yith-ywraq-order-request.php:1425
+msgid "Discount:"
+msgstr "Rabatt:"
+
+# @ yith-woocommerce-request-a-quote
+#: includes/class.yith-ywraq-order-request.php:1426
+#: includes/wc_2.6.x/class.yith-ywraq-order-request.php:1454
+msgid "You do not have permission to read the quote"
+msgstr "Du har ikke tillatelse til å lese tilbudet"
+
+# @ yith-woocommerce-request-a-quote
+#: includes/class.yith-ywraq-order-request.php:1448
+#: includes/wc_2.6.x/class.yith-ywraq-order-request.php:1479
+#, php-format
+msgid "Quote n. %d has been rejected and is not available"
+msgstr "Tilbud nr. %d har blitt avvist og er ikke lenger tilgjengelig"
+
+# @ yith-woocommerce-request-a-quote
+#: includes/class.yith-ywraq-order-request.php:1451
+#: includes/class.yith-ywraq-order-request.php:1464
+#: includes/wc_2.6.x/class.yith-ywraq-order-request.php:1482
+#: includes/wc_2.6.x/class.yith-ywraq-order-request.php:1495
+#, php-format
+msgid "Quote n. %d has expired and is not available"
+msgstr "Tilbud nr. %d har utløpt og er ikke lenger tilgjengelig"
+
+# @ yith-woocommerce-request-a-quote
+#: includes/class.yith-ywraq-order-request.php:1454
+#: includes/wc_2.6.x/class.yith-ywraq-order-request.php:1485
+#, php-format
+msgid "Quote n. %d can't be accepted because its status is: %s"
+msgstr "Tilbud nr. %d kan ikke aksepteres da status fremdeles er: %s"
+
+# @ yith-woocommerce-request-a-quote
+#: includes/class.yith-ywraq-order-request.php:1461
+#: includes/wc_2.6.x/class.yith-ywraq-order-request.php:1492
+#, php-format
+msgid "Quote n. %d has been rejected"
+msgstr "Tilbud nr. %d har blitt avvist"
+
+# @ yith-woocommerce-request-a-quote
+#: includes/class.yith-ywraq-order-request.php:1467
+#: includes/wc_2.6.x/class.yith-ywraq-order-request.php:1498
+#, php-format
+msgid "Quote n. %d can't be rejected because its status is: %s"
+msgstr "Tilbud nr. %d kan ikke avvises da status er: %s"
+
+# @ yith-woocommerce-request-a-quote
+#: includes/class.yith-ywraq-order-request.php:1497
+#: includes/wc_2.6.x/class.yith-ywraq-order-request.php:1527
+#, php-format
+msgid "The quote n. %d has been rejected"
+msgstr "Tilbud nr. %d har blitt avvist"
+
+# @ yith-woocommerce-request-a-quote
+#: includes/class.yith-ywraq-order-request.php:1537
+#: includes/wc_2.6.x/class.yith-ywraq-order-request.php:1595
+msgid "Discount applied successfully."
+msgstr "Rabatten ble brukt med hell."
+
+# @ yith-woocommerce-request-a-quote
+#: includes/class.yith-ywraq-order-request.php:1540
+#: includes/wc_2.6.x/class.yith-ywraq-order-request.php:1598
+msgid "Discount removed successfully."
+msgstr "Rabatten ble fjernet med hell."
+
+# @ yith-woocommerce-request-a-quote
+#: includes/class.yith-ywraq-order-request.php:1642
+#: includes/wc_2.6.x/class.yith-ywraq-order-request.php:1701
+msgid "An error has occurred. Please, contact site administrator."
+msgstr "En feil oppsto. Vennligst, kontakt nettstedets administrator."
+
+# @ yith-woocommerce-request-a-quote
+#: includes/class.yith-ywraq-shortcodes.php:105
+#: includes/widgets/class.yith-ywraq-mini-list-quote-widget.php:60
+#: includes/widgets/class.yith-ywraq-mini-list-quote-widget.php:131
+msgid "item"
+msgstr "produkt"
+
+# @ yith-woocommerce-request-a-quote
+#: includes/class.yith-ywraq-shortcodes.php:106
+#: includes/widgets/class.yith-ywraq-mini-list-quote-widget.php:61
+#: includes/widgets/class.yith-ywraq-mini-list-quote-widget.php:132
+msgid "items"
+msgstr "produkter"
+
+# @ yith-woocommerce-request-a-quote
+#: includes/class.yith-ywraq-shortcodes.php:164
+#: includes/widgets/class.yith-ywraq-list-quote-widget.php:118
+#: includes/widgets/class.yith-ywraq-mini-list-quote-widget.php:59
+#: includes/widgets/class.yith-ywraq-mini-list-quote-widget.php:130
+msgid "Quote List"
+msgstr "Liste over prisforespørsler"
+
+# @ yith-woocommerce-request-a-quote
+#: includes/compatibility/class.woocommerce-composite-products.php:175
+#: includes/compatibility/class.woocommerce-composite-products.php:277
+#: includes/compatibility/yith-woocommerce-composite-products.php:198
+#: includes/compatibility/yith-woocommerce-composite-products.php:309
+#: templates/emails/plain/quote-table.php:29
+#: templates/emails/plain/request-quote-table.php:30
+#: templates/emails/quote-table.php:64
+#: templates/emails/request-quote-table.php:55
+#: templates/myaccount/view-quote.php:141 templates/pdf/quote-table.php:61
+#: templates/request-quote-view.php:71
+msgid " SKU:"
+msgstr "Varenr.:"
+
+# @ yith-woocommerce-request-a-quote
+#: includes/compatibility/class.woocommerce-composite-products.php:250
+#: includes/compatibility/class.woocommerce-composite-products.php:297
+#: includes/compatibility/yith-woocommerce-composite-products.php:246
+#: includes/compatibility/yith-woocommerce-composite-products.php:361
+msgid "Option subtotal: "
+msgstr "Alternativ delsum: "
+
+#: includes/compatibility/yith-woocommerce-composite-products.php:405
+msgid "Base Price:"
+msgstr ""
+
+#: includes/compatibility/yith-woocommerce-composite-products.php:405
+msgid "Total Price:"
+msgstr ""
+
+#: includes/compatibility/yith-woocommerce-composite-products.php:418
+msgid "Options subtotal"
+msgstr ""
+
+# @ yith-woocommerce-request-a-quote
+#: includes/emails/class.yith-ywraq-quote-status.php:31
+msgid "Accepted/rejected Quote"
+msgstr "Aksepterte/Avviste tilbud"
+
+# @ yith-woocommerce-request-a-quote
+#: includes/emails/class.yith-ywraq-quote-status.php:32
+msgid ""
+"This email is sent when a user clicks on \"Accept/Reject\" button in a "
+"Proposal"
+msgstr ""
+"Denne e-posten sendes når en kunde klikker på \"Aksepter/Avvis\" -knappen i "
+"et tilbud"
+
+# @ yith-woocommerce-request-a-quote
+#: includes/emails/class.yith-ywraq-quote-status.php:34
+#: includes/emails/class.yith-ywraq-send-email-request-quote.php:34
+msgid "Request a quote"
+msgstr "Innhent pristilbud"
+
+# @ yith-woocommerce-request-a-quote
+#: includes/emails/class.yith-ywraq-quote-status.php:35
+msgid "[Answer to quote request]"
+msgstr "[Svar på prisforespørsel]"
+
+# @ yith-woocommerce-request-a-quote
+#: includes/emails/class.yith-ywraq-quote-status.php:171
+#: includes/emails/class.yith-ywraq-send-email-request-quote.php:211
+#: includes/emails/class.yith-ywraq-send-quote.php:220
+msgid "Enable/Disable"
+msgstr "Aktiver/Deaktiver"
+
+# @ yith-woocommerce-request-a-quote
+#: includes/emails/class.yith-ywraq-quote-status.php:173
+#: includes/emails/class.yith-ywraq-send-email-request-quote.php:213
+#: includes/emails/class.yith-ywraq-send-quote.php:222
+msgid "Enable this email notification"
+msgstr "Aktiver denne e-postvarsling"
+
+# @ yith-woocommerce-request-a-quote
+#: includes/emails/class.yith-ywraq-quote-status.php:177
+#: includes/emails/class.yith-ywraq-send-email-request-quote.php:217
+#: includes/emails/class.yith-ywraq-send-quote.php:226
+msgid "\"From\" Name"
+msgstr "\"Fra\" Navn"
+
+# @ yith-woocommerce-request-a-quote
+#: includes/emails/class.yith-ywraq-quote-status.php:184
+#: includes/emails/class.yith-ywraq-send-email-request-quote.php:224
+#: includes/emails/class.yith-ywraq-send-quote.php:233
+msgid "\"From\" Email Address"
+msgstr "\"Fra\" E-postadresse"
+
+# @ yith-woocommerce-request-a-quote
+#: includes/emails/class.yith-ywraq-quote-status.php:191
+#: includes/emails/class.yith-ywraq-send-email-request-quote.php:231
+#: includes/emails/class.yith-ywraq-send-quote.php:240
+msgid "Subject"
+msgstr "Emne"
+
+#: includes/emails/class.yith-ywraq-quote-status.php:193
+#: includes/emails/class.yith-ywraq-send-email-request-quote.php:233
+#, php-format
+msgid ""
+"This field lets you edit email subject line. Leave it blank to use default "
+"subject text: <code>%s</code>. You can use {quote_number} as a placeholder "
+"that will show the quote number in the quote."
+msgstr ""
+
+# @ yith-woocommerce-request-a-quote
+#: includes/emails/class.yith-ywraq-quote-status.php:198
+#: includes/emails/class.yith-ywraq-send-email-request-quote.php:238
+msgid "Recipient(s)"
+msgstr "Mottaker(e)"
+
+# @ yith-woocommerce-request-a-quote
+#: includes/emails/class.yith-ywraq-quote-status.php:200
+#: includes/emails/class.yith-ywraq-send-email-request-quote.php:240
+#, php-format
+msgid ""
+"Enter recipients (separated by commas) for this email. Defaults to <code>%s</"
+"code>"
+msgstr ""
+"Skriv inn mottaker(e) for denne e-posten, separert med komma. Standard er "
+"<code>%s</code>"
+
+# @ yith-woocommerce-request-a-quote
+#: includes/emails/class.yith-ywraq-quote-status.php:205
+#: includes/emails/class.yith-ywraq-send-email-request-quote.php:245
+msgid "Send CC copy"
+msgstr "Send CC kopi"
+
+# @ yith-woocommerce-request-a-quote
+#: includes/emails/class.yith-ywraq-quote-status.php:207
+#: includes/emails/class.yith-ywraq-send-email-request-quote.php:247
+msgid "Send a carbon copy to the user"
+msgstr "Send en kopi til kunden"
+
+# @ yith-woocommerce-request-a-quote
+#: includes/emails/class.yith-ywraq-quote-status.php:211
+#: includes/emails/class.yith-ywraq-send-email-request-quote.php:251
+#: includes/emails/class.yith-ywraq-send-quote.php:260
+msgid "Email Heading"
+msgstr "E-postens overskrift"
+
+# @ yith-woocommerce-request-a-quote
+#: includes/emails/class.yith-ywraq-quote-status.php:213
+#: includes/emails/class.yith-ywraq-send-email-request-quote.php:253
+#: includes/emails/class.yith-ywraq-send-quote.php:262
+#, php-format
+msgid ""
+"This field lets you change the main heading in email notification. Leave it "
+"blank to use default heading type: <code>%s</code>."
+msgstr ""
+"Dette feltet lar deg redigere overskriften i e-postvarselet. La det stå tomt "
+"for å bruke standard overskrift: <code>%s</code>."
+
+# @ yith-woocommerce-request-a-quote
+#: includes/emails/class.yith-ywraq-quote-status.php:219
+#: includes/emails/class.yith-ywraq-send-email-request-quote.php:259
+#: includes/emails/class.yith-ywraq-send-quote.php:273
+msgid "Email Description"
+msgstr "E-post beskrivelse"
+
+# @ yith-woocommerce-request-a-quote
+#: includes/emails/class.yith-ywraq-quote-status.php:222
+#: includes/emails/class.yith-ywraq-send-email-request-quote.php:262
+msgid "You have received a request for a quote. The request is the following:"
+msgstr "Du har mottatt en prisforespørsel. Forespørselen er som følger:"
+
+# @ yith-woocommerce-request-a-quote
+#: includes/emails/class.yith-ywraq-quote-status.php:226
+#: includes/emails/class.yith-ywraq-send-email-request-quote.php:266
+#: includes/emails/class.yith-ywraq-send-quote.php:279
+msgid "Email type"
+msgstr "E-post type"
+
+# @ yith-woocommerce-request-a-quote
+#: includes/emails/class.yith-ywraq-quote-status.php:228
+#: includes/emails/class.yith-ywraq-send-email-request-quote.php:268
+#: includes/emails/class.yith-ywraq-send-quote.php:281
+msgid "Choose format for the email that has to be sent."
+msgstr "Velg format for e-posten som skal sendes."
+
+# @ yith-woocommerce-request-a-quote
+#: includes/emails/class.yith-ywraq-quote-status.php:232
+#: includes/emails/class.yith-ywraq-send-email-request-quote.php:272
+#: includes/emails/class.yith-ywraq-send-quote.php:285
+msgid "Plain text"
+msgstr "Ren tekst"
+
+# @ yith-woocommerce-request-a-quote
+#: includes/emails/class.yith-ywraq-quote-status.php:233
+#: includes/emails/class.yith-ywraq-send-email-request-quote.php:273
+#: includes/emails/class.yith-ywraq-send-quote.php:286
+msgid "HTML"
+msgstr "HTML"
+
+# @ yith-woocommerce-request-a-quote
+#: includes/emails/class.yith-ywraq-quote-status.php:234
+#: includes/emails/class.yith-ywraq-send-email-request-quote.php:274
+#: includes/emails/class.yith-ywraq-send-quote.php:287
+msgid "Multipart"
+msgstr "Flerdelt"
+
+# @ yith-woocommerce-request-a-quote
+#: includes/emails/class.yith-ywraq-send-email-request-quote.php:31
+msgid "Email to request a quote"
+msgstr "E-post for å be om et pristilbud"
+
+# @ yith-woocommerce-request-a-quote
+#: includes/emails/class.yith-ywraq-send-email-request-quote.php:32
+msgid "This email is sent when a user clicks on \"Request a quote\" button"
+msgstr ""
+"Denne e-posten sendes når en kunde klikker på \"Innhent pristilbud\" -knappen"
+
+# @ yith-woocommerce-request-a-quote
+#: includes/emails/class.yith-ywraq-send-email-request-quote.php:35
+msgid "[Request a quote]"
+msgstr "[Innhent pristilbud]"
+
+# @ yith-woocommerce-request-a-quote
+#: includes/emails/class.yith-ywraq-send-quote.php:30
+msgid "Email with Quote"
+msgstr "E-post med tilbud"
+
+# @ yith-woocommerce-request-a-quote
+#: includes/emails/class.yith-ywraq-send-quote.php:31
+msgid ""
+"This email is sent when an administrator performs the action \"Send the quote"
+"\" from Order Editor"
+msgstr ""
+"Denne e-posten sendes når en administrator utfører handlingen \"Send tilbudet"
+"\" fra ordrebehandleren"
+
+# @ yith-woocommerce-request-a-quote
+#: includes/emails/class.yith-ywraq-send-quote.php:33
+msgid "Our Proposal"
+msgstr "Vårt tilbud"
+
+# @ yith-woocommerce-request-a-quote
+#: includes/emails/class.yith-ywraq-send-quote.php:34
+msgid "[Quote]"
+msgstr "[Tilbud]"
+
+#: includes/emails/class.yith-ywraq-send-quote.php:242
+#, php-format
+msgid ""
+"This field lets you modify the email subject line. Leave it blank to use the "
+"default subject text: <code>%s</code>. You can use {quote_number} as a "
+"placeholder that will show the quote number in the quote."
+msgstr ""
+
+# @ yith-woocommerce-request-a-quote
+#: includes/emails/class.yith-ywraq-send-quote.php:247
+msgid "Bcc Recipient(s)"
+msgstr "BCC mottaker(e)"
+
+# @ yith-woocommerce-request-a-quote
+#: includes/emails/class.yith-ywraq-send-quote.php:249
+msgid ""
+"Enter futher recipients (separated by commas) for this email. By default "
+"email to the customer"
+msgstr ""
+"Skriv inn flere mottakere (adskilt med komma) for denne e-posten. Standard e-"
+"post til kunde."
+
+# @ yith-woocommerce-request-a-quote
+#: includes/emails/class.yith-ywraq-send-quote.php:254
+msgid "Send BCC copy"
+msgstr "Send BCC kopi"
+
+# @ yith-woocommerce-request-a-quote
+#: includes/emails/class.yith-ywraq-send-quote.php:256
+msgid "Send a blind carbon copy to the administrator"
+msgstr "Send en blindkopi til administrator"
+
+# @ yith-woocommerce-request-a-quote
+#: includes/emails/class.yith-ywraq-send-quote.php:267
+msgid "Email Title"
+msgstr "E-postens tittel"
+
+# @ yith-woocommerce-request-a-quote
+#: includes/emails/class.yith-ywraq-send-quote.php:270
+msgid "Proposal"
+msgstr "Tilbud"
+
+# @ yith-woocommerce-request-a-quote
+#: includes/emails/class.yith-ywraq-send-quote.php:276
+msgid ""
+"You have received this email because you sent a quote request to our shop. "
+"The response to your request is the following:"
+msgstr ""
+"Du har mottatt denne e-posten fordi du har sendt oss en prisforespørsel. I "
+"henhold til din forespørsel ønsker vi å fremlegge følgende tilbud:"
+
+#: includes/forms/gravity-forms/ywraq-gravity-form-addons.php:444
+msgid "Plugin Gravity Forms not activated or not installed"
+msgstr ""
+
+# @ yith-woocommerce-request-a-quote
+#: includes/forms/gravity-forms/ywraq-gravity-form-addons.php:457
+#: includes/functions.yith-request-quote.php:453
+#: includes/functions.yith-request-quote.php:482
+msgid "No contact form found"
+msgstr "Ingen kontaktskjema ble funnet"
+
+# @ yith-woocommerce-request-a-quote
+#: includes/functions.yith-request-quote.php:347
+msgid "new"
+msgstr "Ny"
+
+# @ yith-woocommerce-request-a-quote
+#: includes/functions.yith-request-quote.php:350
+msgid "pending"
+msgstr "Avventende"
+
+# @ yith-woocommerce-request-a-quote
+#: includes/functions.yith-request-quote.php:353
+msgid "expired"
+msgstr "Utløpt"
+
+# @ yith-woocommerce-request-a-quote
+#: includes/functions.yith-request-quote.php:359
+#: includes/functions.yith-request-quote.php:362
+msgid "accepted"
+msgstr "Akseptert"
+
+# @ yith-woocommerce-request-a-quote
+#: includes/functions.yith-request-quote.php:439
+#: includes/functions.yith-request-quote.php:470
+msgid "Plugin not activated or not installed"
+msgstr "Plugin er ikke aktivert eller den er ikke installert"
+
+# @ yith-woocommerce-request-a-quote
+#: includes/functions.yith-request-quote.php:523
+msgid "All"
+msgstr "Alle"
+
+# @ yith-woocommerce-request-a-quote
+#: includes/functions.yith-request-quote.php:622
+msgid "Your list is empty, add products to the list to send a request"
+msgstr ""
+"Listen din er tom. Legg til et produkt i listen for å sende en forespørsel"
+
+# @ yith-woocommerce-request-a-quote
+#: includes/functions.yith-request-quote.php:698
+#, php-format
+msgid "%s %s <a href=\"%s\">#%s</a>"
+msgstr "%s %s <a href=\"%s\">#%s</a>"
+
+# @ yith-woocommerce-request-a-quote
+#: includes/functions.yith-request-quote.php:721
+#: plugin-options/quote-options.php:50
+msgid "Accept"
+msgstr "Aksepter"
+
+# @ yith-woocommerce-request-a-quote
+#: includes/functions.yith-request-quote.php:724
+#: plugin-options/quote-options.php:80
+msgid "Reject"
+msgstr "Avvis"
+
+# @ yith-woocommerce-request-a-quote
+#: includes/wc_2.6.x/class.yith-ywraq-order-request.php:1568
+msgid ""
+"Sorry, you have changed content of your cart. Discount has now been removed "
+"from your order"
+msgstr ""
+"Beklager, du har endret innholdet i handlekurven din. Rabatten er nå fjernet "
+"fra denne ordren"
+
+# @ yith-woocommerce-request-a-quote
+#: includes/widgets/class.yith-ywraq-list-quote-widget.php:33
+#: includes/widgets/class.yith-ywraq-mini-list-quote-widget.php:33
+msgid "Show products added to your list"
+msgstr "Vis produktene som er lagt til i listen"
+
+# @ yith-woocommerce-request-a-quote
+#: includes/widgets/class.yith-ywraq-list-quote-widget.php:35
+msgid "YITH WooCommerce Request a Quote List"
+msgstr "YITH WooCommerce Request a Quote List"
+
+# @ yith-woocommerce-request-a-quote
+#: includes/widgets/class.yith-ywraq-list-quote-widget.php:128
+#: includes/widgets/class.yith-ywraq-mini-list-quote-widget.php:144
+msgid "Title:"
+msgstr "Tittel:"
+
+# @ yith-woocommerce-request-a-quote
+#: includes/widgets/class.yith-ywraq-list-quote-widget.php:135
+#: includes/widgets/class.yith-ywraq-mini-list-quote-widget.php:161
+msgid "Show Thumbnail"
+msgstr "Vis miniatyrbilde"
+
+# @ yith-woocommerce-request-a-quote
+#: includes/widgets/class.yith-ywraq-list-quote-widget.php:142
+#: includes/widgets/class.yith-ywraq-mini-list-quote-widget.php:168
+msgid "Show Price"
+msgstr "Vis pris"
+
+# @ yith-woocommerce-request-a-quote
+#: includes/widgets/class.yith-ywraq-list-quote-widget.php:149
+#: includes/widgets/class.yith-ywraq-mini-list-quote-widget.php:175
+msgid "Show Quantity"
+msgstr "Vis antall"
+
+# @ yith-woocommerce-request-a-quote
+#: includes/widgets/class.yith-ywraq-list-quote-widget.php:156
+#: includes/widgets/class.yith-ywraq-mini-list-quote-widget.php:182
+msgid "Show Variations"
+msgstr "Vis variabler"
+
+# @ yith-woocommerce-request-a-quote
+#: includes/widgets/class.yith-ywraq-mini-list-quote-widget.php:35
+msgid "YITH WooCommerce Mini Request a Quote List"
+msgstr "YITH WooCommerce Mini Innhent pristilbud liste"
+
+# @ yith-woocommerce-request-a-quote
+#: includes/widgets/class.yith-ywraq-mini-list-quote-widget.php:149
+msgid "Item Name:"
+msgstr "Produktnavn:"
+
+# @ yith-woocommerce-request-a-quote
+#: includes/widgets/class.yith-ywraq-mini-list-quote-widget.php:154
+msgid "Item Plural Name:"
+msgstr "Produkt flertallsnavn:"
+
+# @ yith-plugin-fw
+#: plugin-fw/lib/yit-cpt-unlimited.php:460
+#: plugin-fw/lib/yit-cpt-unlimited.php:574
+#: plugin-fw/lib/yit-cpt-unlimited.php:719
+#: plugin-fw/lib/yit-cpt-unlimited.php:1632
+#, php-format
+msgid "Add %s"
+msgstr ""
+
+# @ yith-plugin-fw
+#: plugin-fw/lib/yit-cpt-unlimited.php:461
+#: plugin-fw/lib/yit-cpt-unlimited.php:575
+#, php-format
+msgid "Add New %s"
+msgstr ""
+
+# @ yith-plugin-fw
+#: plugin-fw/lib/yit-cpt-unlimited.php:462
+#: plugin-fw/lib/yit-cpt-unlimited.php:576
+#: plugin-fw/lib/yit-cpt-unlimited.php:1267
+#: plugin-fw/lib/yit-cpt-unlimited.php:1304
+#, php-format
+msgid "Edit %s"
+msgstr ""
+
+# @ yith-plugin-fw
+#: plugin-fw/lib/yit-cpt-unlimited.php:463
+#: plugin-fw/lib/yit-cpt-unlimited.php:577
+#, php-format
+msgid "New %s"
+msgstr ""
+
+# @ yith-plugin-fw
+#: plugin-fw/lib/yit-cpt-unlimited.php:464
+#: plugin-fw/lib/yit-cpt-unlimited.php:578
+#, php-format
+msgid "All %s"
+msgstr ""
+
+# @ yith-plugin-fw
+#: plugin-fw/lib/yit-cpt-unlimited.php:465
+#: plugin-fw/lib/yit-cpt-unlimited.php:579
+#: plugin-fw/lib/yit-cpt-unlimited.php:1251
+#: plugin-fw/lib/yit-cpt-unlimited.php:1305
+#, php-format
+msgid "View %s"
+msgstr ""
+
+# @ yith-plugin-fw
+#: plugin-fw/lib/yit-cpt-unlimited.php:466
+#: plugin-fw/lib/yit-cpt-unlimited.php:580
+#, php-format
+msgid "Search %s"
+msgstr ""
+
+# @ yith-plugin-fw
+#: plugin-fw/lib/yit-cpt-unlimited.php:467
+#: plugin-fw/lib/yit-cpt-unlimited.php:581
+#, php-format
+msgid "No %s found"
+msgstr ""
+
+# @ yith-plugin-fw
+#: plugin-fw/lib/yit-cpt-unlimited.php:468
+#: plugin-fw/lib/yit-cpt-unlimited.php:582
+#, php-format
+msgid "No %s found in Trash"
+msgstr ""
+
+# @ yith-plugin-fw
+#: plugin-fw/lib/yit-cpt-unlimited.php:625
+#, php-format
+msgctxt "taxonomy general name"
+msgid "%s Categories"
+msgstr ""
+
+# @ yith-plugin-fw
+#: plugin-fw/lib/yit-cpt-unlimited.php:626
+msgctxt "taxonomy singular name"
+msgid "Category"
+msgstr ""
+
+# @ yith-plugin-fw
+#: plugin-fw/lib/yit-cpt-unlimited.php:627
+msgid "Search Categories"
+msgstr ""
+
+# @ yith-plugin-fw
+#: plugin-fw/lib/yit-cpt-unlimited.php:628
+msgid "All Categories"
+msgstr ""
+
+# @ yith-plugin-fw
+#: plugin-fw/lib/yit-cpt-unlimited.php:629
+msgid "Parent Category"
+msgstr ""
+
+# @ yith-plugin-fw
+#: plugin-fw/lib/yit-cpt-unlimited.php:630
+msgid "Parent Category:"
+msgstr ""
+
+# @ yith-plugin-fw
+#: plugin-fw/lib/yit-cpt-unlimited.php:631
+msgid "Edit Category"
+msgstr ""
+
+# @ yith-plugin-fw
+#: plugin-fw/lib/yit-cpt-unlimited.php:632
+msgid "Update Category"
+msgstr ""
+
+# @ yith-plugin-fw
+#: plugin-fw/lib/yit-cpt-unlimited.php:633
+msgid "Add New Category"
+msgstr ""
+
+# @ yith-plugin-fw
+#: plugin-fw/lib/yit-cpt-unlimited.php:634
+msgid "New Category Name"
+msgstr ""
+
+# @ yith-plugin-fw
+#: plugin-fw/lib/yit-cpt-unlimited.php:635
+msgid "Category"
+msgstr ""
+
+# @ yith-plugin-fw
+#: plugin-fw/lib/yit-cpt-unlimited.php:724
+msgid "Categories"
+msgstr ""
+
+# @ yith-plugin-fw
+#: plugin-fw/lib/yit-cpt-unlimited.php:1042
+#, php-format
+msgid "%s Settings"
+msgstr ""
+
+# @ yith-plugin-fw
+#: plugin-fw/lib/yit-cpt-unlimited.php:1051
+msgid "Type"
+msgstr ""
+
+# @ yith-plugin-fw
+#: plugin-fw/lib/yit-cpt-unlimited.php:1052
+#, php-format
+msgid "Layout for this %s"
+msgstr ""
+
+# @ yith-plugin-fw
+#: plugin-fw/lib/yit-cpt-unlimited.php:1058
+msgid "Rewrite"
+msgstr ""
+
+# @ yith-plugin-fw
+#: plugin-fw/lib/yit-cpt-unlimited.php:1059
+msgid ""
+"Univocal identification name in the URL for each product (slug from post if "
+"empty)"
+msgstr ""
+
+# @ yith-plugin-fw
+#: plugin-fw/lib/yit-cpt-unlimited.php:1064
+msgid "Label in Singular"
+msgstr ""
+
+# @ yith-plugin-fw
+#: plugin-fw/lib/yit-cpt-unlimited.php:1065
+msgid "Set a label in singular (title of portfolio if empty)"
+msgstr ""
+
+# @ yith-plugin-fw
+#: plugin-fw/lib/yit-cpt-unlimited.php:1070
+msgid "Label in Plural"
+msgstr ""
+
+# @ yith-plugin-fw
+#: plugin-fw/lib/yit-cpt-unlimited.php:1071
+msgid "Set a label in plural (title of portfolio if empty)"
+msgstr ""
+
+# @ yith-plugin-fw
+#: plugin-fw/lib/yit-cpt-unlimited.php:1076
+msgid "Taxonomy"
+msgstr ""
+
+# @ yith-plugin-fw
+#: plugin-fw/lib/yit-cpt-unlimited.php:1077
+msgid ""
+"If you want to use categories in the portfolio, set a name for taxonomy. "
+"Name should be a slug (must not contain capital letters nor spaces) and must "
+"not be more than 32 characters long (database structure restriction)."
+msgstr ""
+
+# @ yith-plugin-fw
+#: plugin-fw/lib/yit-cpt-unlimited.php:1082
+msgid "Taxonomy Rewrite"
+msgstr ""
+
+# @ yith-plugin-fw
+#: plugin-fw/lib/yit-cpt-unlimited.php:1083
+msgid "Set univocal name for each category page URL."
+msgstr ""
+
+# @ yith-plugin-fw
+#: plugin-fw/lib/yit-cpt-unlimited.php:1088
+msgid "Single layout"
+msgstr ""
+
+# @ yith-plugin-fw
+#: plugin-fw/lib/yit-cpt-unlimited.php:1089
+msgid "Layout for single page of this portfolio"
+msgstr ""
+
+# @ yith-plugin-fw
+#: plugin-fw/lib/yit-cpt-unlimited.php:1130
+msgid "layout settings"
+msgstr ""
+
+# @ yith-plugin-fw
+#: plugin-fw/lib/yit-cpt-unlimited.php:1222
+#: plugin-fw/lib/yit-cpt-unlimited.php:1235
+msgid "Quick links"
+msgstr ""
+
+# @ yith-plugin-fw
+#: plugin-fw/lib/yit-cpt-unlimited.php:1475
+#, php-format
+msgid "Show frontend of the %s"
+msgstr ""
+
+# @ yith-plugin-fw
+# @ yith-woocommerce-request-a-quote
+#: plugin-fw/lib/yit-cpt-unlimited.php:1482
+#: plugin-fw/templates/metaboxes/types/customtabs.php:46
+#: plugin-fw/templates/metaboxes/types/customtabs.php:90
+#: templates/request-quote-form.php:33
+msgid "Name"
+msgstr "Navn"
+
+# @ yith-plugin-fw
+#: plugin-fw/lib/yit-cpt-unlimited.php:1631
+#, php-format
+msgid "Add %s from images"
+msgstr ""
+
+# @ yith-plugin-fw
+#: plugin-fw/lib/yit-cpt-unlimited.php:1633
+msgid "Upload multiple files"
+msgstr ""
+
+# @ yith-plugin-fw
+#: plugin-fw/lib/yit-plugin-panel-sidebar.php:424
+#: plugin-fw/templates/panel/sidebar/sidebar.php:3
+msgid "Hide sidebar"
+msgstr ""
+
+# @ yith-plugin-fw
+#: plugin-fw/lib/yit-plugin-panel-sidebar.php:425
+#: plugin-fw/templates/panel/sidebar/sidebar.php:3
+msgid "Show sidebar"
+msgstr ""
+
+# @ yith-plugin-fw
+#: plugin-fw/lib/yit-plugin-panel-wc.php:374
+msgid "The changes you have made will be lost if you leave this page."
+msgstr ""
+
+# @ yith-plugin-fw
+#: plugin-fw/lib/yit-plugin-panel.php:73
+msgid "Plugin Settings"
+msgstr ""
+
+# @ yith-plugin-fw
+#: plugin-fw/lib/yit-plugin-panel.php:297
+#: plugin-fw/lib/yit-plugin-panel.php:300
+msgid "How to install premium version"
+msgstr ""
+
+# @ yith-plugin-fw
+#: plugin-fw/lib/yit-plugin-panel.php:352
+#: plugin-fw/lib/yit-plugin-subpanel.php:146
+#: plugin-fw/templates/panel/woocommerce/woocommerce-form.php:12
+msgid "Save Changes"
+msgstr ""
+
+# @ yith-plugin-fw
+#: plugin-fw/lib/yit-plugin-panel.php:355
+#: plugin-fw/templates/panel/woocommerce/woocommerce-form.php:15
+msgid ""
+"If you continue with this action, you will reset all options in this page."
+msgstr ""
+
+# @ yith-plugin-fw
+#: plugin-fw/lib/yit-plugin-panel.php:357
+#: plugin-fw/lib/yit-plugin-subpanel.php:151
+msgid "Reset to default"
+msgstr ""
+
+# @ yith-plugin-fw
+#: plugin-fw/lib/yit-plugin-panel.php:357
+#: plugin-fw/lib/yit-plugin-subpanel.php:151
+#: plugin-fw/templates/panel/woocommerce/woocommerce-form.php:19
+msgid "Are you sure?"
+msgstr ""
+
+# @ yith-plugin-fw
+#: plugin-fw/lib/yit-plugin-panel.php:553
+msgid ""
+"The element you have entered already exists. Please, enter another name."
+msgstr ""
+
+# @ yith-plugin-fw
+#: plugin-fw/lib/yit-plugin-panel.php:554
+msgid "Settings saved"
+msgstr ""
+
+# @ yith-plugin-fw
+#: plugin-fw/lib/yit-plugin-panel.php:555
+msgid "Settings reset"
+msgstr ""
+
+# @ yith-plugin-fw
+#: plugin-fw/lib/yit-plugin-panel.php:556
+msgid "Element deleted correctly."
+msgstr ""
+
+# @ yith-plugin-fw
+#: plugin-fw/lib/yit-plugin-panel.php:557
+#: plugin-fw/lib/yit-plugin-panel.php:558
+msgid "Element updated correctly."
+msgstr ""
+
+# @ yith-plugin-fw
+#: plugin-fw/lib/yit-plugin-panel.php:559
+msgid "Database imported correctly."
+msgstr ""
+
+# @ yith-plugin-fw
+#: plugin-fw/lib/yit-plugin-panel.php:560
+msgid "An error has occurred during import. Please try again."
+msgstr ""
+
+# @ yith-plugin-fw
+#: plugin-fw/lib/yit-plugin-panel.php:561
+msgid "The added file is not valid."
+msgstr ""
+
+# @ yith-plugin-fw
+#: plugin-fw/lib/yit-plugin-panel.php:562
+msgid "Sorry, import is disabled."
+msgstr ""
+
+# @ yith-plugin-fw
+#: plugin-fw/lib/yit-plugin-panel.php:563
+msgid "Sorting successful."
+msgstr ""
+
+# @ yith-plugin-fw
+#: plugin-fw/lib/yit-plugin-subpanel.php:149
+msgid ""
+"If you continue with this action, you will reset all the options in this "
+"page."
+msgstr ""
+
+# @ yith-plugin-fw
+#: plugin-fw/lib/yit-pointers.php:70
+msgid "Plugins Activated"
+msgstr ""
+
+#: plugin-fw/lib/yit-pointers.php:71
+msgid ""
+"From now on, you can find all plugin options in YITH Plugins menu.\n"
+"                                     Plugin customization settings will be "
+"available as a new entry in YITH Plugins menu."
+msgstr ""
+
+# @ yith-plugin-fw
+#: plugin-fw/lib/yit-pointers.php:73 plugin-fw/lib/yit-pointers.php:89
+msgid "Discover all our plugins available on:"
+msgstr ""
+
+# @ yith-plugin-fw
+#: plugin-fw/lib/yit-pointers.php:74 plugin-fw/lib/yit-pointers.php:90
+msgid "and"
+msgstr ""
+
+# @ yith-plugin-fw
+#: plugin-fw/lib/yit-pointers.php:84
+msgid "Plugins Upgraded"
+msgstr ""
+
+#: plugin-fw/lib/yit-pointers.php:85
+msgid ""
+"From now on, you can find the option panel of YITH plugins in YITH Plugins "
+"menu.\n"
+"                                    Every time one of our plugins is added, "
+"a new entry will be added to this menu.\n"
+"                                    For example, after the update, plugin "
+"options (such as for YITH WooCommerce Wishlist, YITH WooCommerce Ajax "
+"Search, etc.)\n"
+"                                    will be moved from previous location to "
+"YITH Plugins tab."
+msgstr ""
+
+# @ yith-plugin-fw
+#: plugin-fw/lib/yit-upgrade.php:135
+msgid "There is a new version of %plugin_name% available."
+msgstr ""
+
+# @ yith-plugin-fw
+#: plugin-fw/lib/yit-upgrade.php:136
+msgid "View version %latest% details."
+msgstr ""
+
+# @ yith-plugin-fw
+#: plugin-fw/lib/yit-upgrade.php:137
+msgid "Automatic update is unavailable for this plugin,"
+msgstr ""
+
+# @ yith-plugin-fw
+#: plugin-fw/lib/yit-upgrade.php:138
+msgid ""
+"please <a href=\"%activate_link%\">activate</a> your copy of %plugin_name%."
+msgstr ""
+
+# @ yith-plugin-fw
+#: plugin-fw/lib/yit-upgrade.php:139
+msgid "Update now."
+msgstr ""
+
+# @ yith-plugin-fw
+#: plugin-fw/lib/yit-upgrade.php:240
+msgid "YIThemes Repository"
+msgstr ""
+
+# @ yit
+#: plugin-fw/lib/yit-upgrade.php:274
+msgid "Invalid URL Provided."
+msgstr ""
+
+# @ yit
+#: plugin-fw/lib/yit-upgrade.php:287
+msgid "Could not create Temporary file."
+msgstr ""
+
+#: plugin-fw/lib/yit-upgrade.php:446
+#, php-format
+msgid ""
+"There is a new version of %1$s available. <a href=\"%2$s\" class=\"thickbox "
+"yit-changelog-button open-plugin-details-modal\" title=\"%3$s\">View version "
+"%4$s details</a>."
+msgstr ""
+
+#: plugin-fw/lib/yit-upgrade.php:448
+#, php-format
+msgid ""
+"There is a new version of %1$s available. <a href=\"%2$s\" class=\"thickbox "
+"yit-changelog-button open-plugin-details-modal\" title=\"%3$s\">View version "
+"%4$s details</a>. <em>You have to activate the plugin on a single site of "
+"the network to benefit from automatic updates.</em>"
+msgstr ""
+
+#: plugin-fw/lib/yit-upgrade.php:450
+#, php-format
+msgid ""
+"There is a new version of %1$s available. <a href=\"%2$s\" class=\"thickbox "
+"yit-changelog-button open-plugin-details-modal\" title=\"%3$s\">View version "
+"%4$s details</a>. <em>Automatic update is unavailable for this plugin, "
+"please <a href=\"%5$s\" title=\"License activation\">activate</a> your copy "
+"of %6s.</em>"
+msgstr ""
+
+#: plugin-fw/lib/yit-upgrade.php:452
+#, php-format
+msgid ""
+"There is a new version of %1$s available. <a href=\"%2$s\" class=\"thickbox "
+"yit-changelog-button open-plugin-details-modal\" title=\"%3$s\">View version "
+"%4$s details</a> or <a href=\"%5$s\">update now</a>."
+msgstr ""
+
+# @ yith-plugin-fw
+#: plugin-fw/lib/yit-upgrade.php:526
+msgid "You can't update the plugins for this site."
+msgstr ""
+
+# @ yith-plugin-fw
+#: plugin-fw/lib/yit-upgrade.php:530
+msgid ""
+"You do not have sufficient permissions to update the plugins for this site."
+msgstr ""
+
+# @ yith-plugin-fw
+#: plugin-fw/lib/yit-upgrade.php:537
+msgid "Update Plugin"
+msgstr ""
+
+# @ yith-plugin-fw
+#: plugin-fw/licence/lib/yit-licence.php:183
+#, php-format
+msgctxt "%s = field name"
+msgid "%s field cannot be empty"
+msgstr ""
+
+# @ yith-plugin-fw
+#: plugin-fw/licence/lib/yit-licence.php:184
+#, php-format
+msgid "%s and %s fields cannot be empty"
+msgstr ""
+
+# @ yith-plugin-fw
+#: plugin-fw/licence/lib/yit-licence.php:185
+msgid "Unable to contact the remote server, please try again later. Thanks!"
+msgstr ""
+
+# @ yith-plugin-fw
+# @ yith-woocommerce-request-a-quote
+#: plugin-fw/licence/lib/yit-licence.php:186
+#: plugin-fw/licence/templates/panel/activation/activation-panel.php:88
+#: plugin-fw/licence/templates/panel/activation/activation-panel.php:166
+#: plugin-fw/licence/templates/panel/activation/activation-panel.php:197
+#: plugin-fw/templates/metaboxes/types/contactform.php:148
+#: plugin-fw/templates/metaboxes/types/contactform.php:340
+#: templates/myaccount/view-quote.php:232 templates/request-quote-form.php:39
+msgid "Email"
+msgstr "E-post"
+
+# @ yith-plugin-fw
+#: plugin-fw/licence/lib/yit-licence.php:187
+#: plugin-fw/licence/templates/panel/activation/activation-panel.php:89
+#: plugin-fw/licence/templates/panel/activation/activation-panel.php:167
+#: plugin-fw/licence/templates/panel/activation/activation-panel.php:198
+msgid "License Key"
+msgstr ""
+
+# @ yith-plugin-fw
+#: plugin-fw/licence/lib/yit-licence.php:188
+msgid "Are you sure you want to deactivate the license for current site?"
+msgstr ""
+
+# @ yith-plugin-fw
+#: plugin-fw/licence/lib/yit-licence.php:668
+msgid "Invalid Request"
+msgstr ""
+
+# @ yith-plugin-fw
+#: plugin-fw/licence/lib/yit-licence.php:669
+msgid "Invalid license key"
+msgstr ""
+
+# @ yith-plugin-fw
+#: plugin-fw/licence/lib/yit-licence.php:670
+msgid "Software has been deactivated"
+msgstr ""
+
+# @ yith-plugin-fw
+#: plugin-fw/licence/lib/yit-licence.php:671
+msgid "Maximum number of activations exceeded"
+msgstr ""
+
+# @ yith-plugin-fw
+#: plugin-fw/licence/lib/yit-licence.php:672
+msgid "Invalid instance ID"
+msgstr ""
+
+# @ yith-plugin-fw
+#: plugin-fw/licence/lib/yit-licence.php:673
+msgid "Invalid security key"
+msgstr ""
+
+# @ yith-plugin-fw
+#: plugin-fw/licence/lib/yit-licence.php:674
+msgid "License key has expired"
+msgstr ""
+
+# @ yith-plugin-fw
+#: plugin-fw/licence/lib/yit-licence.php:675
+msgid "License key has been banned"
+msgstr ""
+
+#: plugin-fw/licence/lib/yit-licence.php:676
+msgid "Current product is not included in your YITH Club Subscription key"
+msgstr ""
+
+# @ yith-plugin-fw
+#: plugin-fw/licence/lib/yit-licence.php:677
+msgid "Great"
+msgstr ""
+
+# @ yith-plugin-fw
+#: plugin-fw/licence/lib/yit-licence.php:677
+msgid "License successfully activated"
+msgstr ""
+
+# @ woocommerce-software-add-on
+#: plugin-fw/licence/lib/yit-licence.php:678
+msgid "License key deactivated for website"
+msgstr ""
+
+# @ yith-plugin-fw
+#: plugin-fw/licence/lib/yit-plugin-licence.php:67
+#: plugin-fw/licence/lib/yit-plugin-licence.php:68
+#: plugin-fw/licence/lib/yit-theme-licence.php:69
+#: plugin-fw/licence/lib/yit-theme-licence.php:70
+#: plugin-fw/licence/lib/yit-theme-licence.php:109
+#: plugin-fw/licence/lib/yit-theme-licence.php:110
+msgid "License Activation"
+msgstr ""
+
+# @ yith-plugin-fw
+#: plugin-fw/licence/lib/yit-theme-licence.php:117
+#: plugin-fw/licence/lib/yit-theme-licence.php:118
+#, php-format
+msgid "%s"
+msgstr ""
+
+# @ yith-plugin-fw
+#: plugin-fw/licence/lib/yit-theme-licence.php:159
+msgid ""
+"I cannot find the license key for activating the theme I have bought some "
+"time ago. Where can I find it?"
+msgstr ""
+
+# @ yith-plugin-fw
+#: plugin-fw/licence/lib/yit-theme-licence.php:163
+msgid ""
+"If you have purchased one of our products before 27 January 2015, you can "
+"benefit from support and updates (the services offered with the license)\n"
+"                    until 27 January 2016 and you do not have to purchase it "
+"again to get a new license key, because, before this date, your license used "
+"to be activated automatically by our system.\n"
+"                    After 27 January 2016, instead, if you want to benefit "
+"from support and updates you have to buy a new license and activate it "
+"through the license key you will be\n"
+"                    provided with and that you can find in your YIThemes "
+"account, in section \"My licenses\"."
+msgstr ""
+
+# @ yith-plugin-fw
+#: plugin-fw/licence/templates/panel/activation/activation-panel.php:23
+msgid "Yithemes License Activation"
+msgstr ""
+
+# @ yith-plugin-fw
+#: plugin-fw/licence/templates/panel/activation/activation-panel.php:27
+msgid ""
+"Have you updated your licenses? Have you asked for an extension? Update "
+"information concerning your products."
+msgstr ""
+
+# @ yith-plugin-fw
+#: plugin-fw/licence/templates/panel/activation/activation-panel.php:29
+msgid "Update license information"
+msgstr ""
+
+# @ yith-plugin-fw
+#: plugin-fw/licence/templates/panel/activation/activation-panel.php:42
+msgid "Product to activate"
+msgid_plural "Products to activate"
+msgstr[0] ""
+msgstr[1] ""
+
+# @ yith-plugin-fw
+#: plugin-fw/licence/templates/panel/activation/activation-panel.php:61
+msgid "Activate"
+msgstr ""
+
+# @ yith-plugin-fw
+#: plugin-fw/licence/templates/panel/activation/activation-panel.php:80
+msgid "Activated"
+msgstr ""
+
+# @ yith-plugin-fw
+#: plugin-fw/licence/templates/panel/activation/activation-panel.php:86
+#: plugin-fw/licence/templates/panel/activation/activation-panel.php:164
+#: plugin-fw/licence/templates/panel/activation/activation-panel.php:194
+msgid "Product Name"
+msgstr ""
+
+# @ yith-plugin-fw
+#: plugin-fw/licence/templates/panel/activation/activation-panel.php:92
+#: plugin-fw/licence/templates/panel/activation/activation-panel.php:201
+msgid "Expires"
+msgstr ""
+
+# @ yith-plugin-fw
+#: plugin-fw/licence/templates/panel/activation/activation-panel.php:95
+msgid "Remaining"
+msgstr ""
+
+#: plugin-fw/licence/templates/panel/activation/activation-panel.php:97
+msgid "Club Subscription"
+msgstr ""
+
+# @ yith-plugin-fw
+#: plugin-fw/licence/templates/panel/activation/activation-panel.php:101
+msgid "License Actions"
+msgstr ""
+
+# @ yith-plugin-fw
+#: plugin-fw/licence/templates/panel/activation/activation-panel.php:126
+#, php-format
+msgid "%1s out of %2s"
+msgstr ""
+
+# @ yith-plugin-fw
+#: plugin-fw/licence/templates/panel/activation/activation-panel.php:142
+msgid "Deactivate"
+msgstr ""
+
+# @ yith-plugin-fw
+#: plugin-fw/licence/templates/panel/activation/activation-panel.php:147
+#: plugin-fw/licence/templates/panel/activation/activation-panel.php:204
+msgid "Renew"
+msgstr ""
+
+# @ yith-plugin-fw
+#: plugin-fw/licence/templates/panel/activation/activation-panel.php:160
+msgid "Banned"
+msgstr ""
+
+# @ yith-plugin-fw
+#: plugin-fw/licence/templates/panel/activation/activation-panel.php:190
+msgid "Expired"
+msgstr ""
+
+# @ yith-plugin-fw
+#: plugin-fw/licence/templates/panel/activation/activation-panel.php:226
+msgid "Order again"
+msgstr ""
+
+# @ yith-plugin-fw
+#: plugin-fw/licence/templates/panel/activation/activation-panel.php:228
+msgid "Renew license"
+msgstr ""
+
+# @ yith-plugin-fw
+#: plugin-fw/templates/metaboxes/types/ajax-products.php:23
+msgid "Search for a product"
+msgstr ""
+
+# @ yith-plugin-fw
+#: plugin-fw/templates/metaboxes/types/categories.php:36
+msgid "No categories."
+msgstr ""
+
+# @ yith-plugin-fw
+#: plugin-fw/templates/metaboxes/types/categories.php:42
+msgid "+ Add New Category"
+msgstr ""
+
+# @ yith-plugin-fw
+#: plugin-fw/templates/metaboxes/types/contactform.php:7
+msgid "Text Input"
+msgstr ""
+
+# @ yith-plugin-fw
+#: plugin-fw/templates/metaboxes/types/contactform.php:8
+msgid "Checkbox"
+msgstr ""
+
+# @ yith-plugin-fw
+#: plugin-fw/templates/metaboxes/types/contactform.php:9
+msgid "Select"
+msgstr ""
+
+# @ yith-plugin-fw
+#: plugin-fw/templates/metaboxes/types/contactform.php:10
+msgid "Textarea"
+msgstr ""
+
+# @ yith-plugin-fw
+#: plugin-fw/templates/metaboxes/types/contactform.php:11
+msgid "Radio Input"
+msgstr ""
+
+# @ yith-plugin-fw
+#: plugin-fw/templates/metaboxes/types/contactform.php:12
+msgid "Password Field"
+msgstr ""
+
+# @ yith-plugin-fw
+#: plugin-fw/templates/metaboxes/types/contactform.php:13
+msgid "File Upload"
+msgstr ""
+
+# @ yith-plugin-fw
+#: plugin-fw/templates/metaboxes/types/contactform.php:47
+msgid "Theme Icon"
+msgstr ""
+
+# @ yith-plugin-fw
+#: plugin-fw/templates/metaboxes/types/contactform.php:48
+msgid "Custom Icon"
+msgstr ""
+
+# @ yith-plugin-fw
+#: plugin-fw/templates/metaboxes/types/contactform.php:49
+#: plugin-fw/templates/metaboxes/types/responsivesliders.php:24
+msgid "None"
+msgstr ""
+
+# @ yith-plugin-fw
+#: plugin-fw/templates/metaboxes/types/contactform.php:60
+msgid "Add field"
+msgstr ""
+
+# @ yith-plugin-fw
+#: plugin-fw/templates/metaboxes/types/contactform.php:69
+#: plugin-fw/templates/metaboxes/types/contactform.php:261
+#: plugin-fw/templates/metaboxes/types/customtabs.php:37
+#: plugin-fw/templates/metaboxes/types/customtabs.php:82
+msgid "Remove"
+msgstr ""
+
+# @ yith-plugin-fw
+#: plugin-fw/templates/metaboxes/types/contactform.php:70
+#: plugin-fw/templates/metaboxes/types/contactform.php:262
+msgid "Click to toggle"
+msgstr ""
+
+# @ yith-plugin-fw
+#: plugin-fw/templates/metaboxes/types/contactform.php:77
+#: plugin-fw/templates/metaboxes/types/contactform.php:269
+msgid "Field Title"
+msgstr ""
+
+# @ yith-plugin-fw
+#: plugin-fw/templates/metaboxes/types/contactform.php:81
+#: plugin-fw/templates/metaboxes/types/contactform.php:273
+msgid "Insert the title for the field."
+msgstr ""
+
+# @ yith-plugin-fw
+#: plugin-fw/templates/metaboxes/types/contactform.php:86
+#: plugin-fw/templates/metaboxes/types/contactform.php:278
+msgid "Data Name"
+msgstr ""
+
+# @ yith-plugin-fw
+#: plugin-fw/templates/metaboxes/types/contactform.php:90
+#: plugin-fw/templates/metaboxes/types/contactform.php:282
+msgid ""
+"REQUIRED: Field identification name to be entered into email body. "
+"<strong>Note:</strong>Use only lowercase characters and underscores."
+msgstr ""
+
+# @ yith-plugin-fw
+#: plugin-fw/templates/metaboxes/types/contactform.php:95
+#: plugin-fw/templates/metaboxes/types/contactform.php:287
+msgid "Field Type"
+msgstr ""
+
+# @ yith-plugin-fw
+#: plugin-fw/templates/metaboxes/types/contactform.php:103
+#: plugin-fw/templates/metaboxes/types/contactform.php:295
+msgid "Select the type for this field."
+msgstr ""
+
+# @ yith-plugin-fw
+#: plugin-fw/templates/metaboxes/types/contactform.php:108
+#: plugin-fw/templates/metaboxes/types/contactform.php:300
+msgid "Checked"
+msgstr ""
+
+# @ yith-plugin-fw
+#: plugin-fw/templates/metaboxes/types/contactform.php:112
+#: plugin-fw/templates/metaboxes/types/contactform.php:304
+msgid "Select this option if you want this field appears as already checked."
+msgstr ""
+
+# @ yith-plugin-fw
+#: plugin-fw/templates/metaboxes/types/contactform.php:117
+#: plugin-fw/templates/metaboxes/types/contactform.php:309
+msgid "Add options "
+msgstr ""
+
+# @ yith-plugin-fw
+#: plugin-fw/templates/metaboxes/types/contactform.php:118
+#: plugin-fw/templates/metaboxes/types/contactform.php:310
+msgid "Add option"
+msgstr ""
+
+# @ yith-plugin-fw
+#: plugin-fw/templates/metaboxes/types/contactform.php:121
+#: plugin-fw/templates/metaboxes/types/contactform.php:313
+#: plugin-fw/templates/metaboxes/types/contactform.php:436
+msgid "Selected"
+msgstr ""
+
+# @ yith-plugin-fw
+#: plugin-fw/templates/metaboxes/types/contactform.php:124
+#: plugin-fw/templates/metaboxes/types/contactform.php:316
+#: plugin-fw/templates/metaboxes/types/contactform.php:436
+msgid "Delete option"
+msgstr ""
+
+# @ yith-plugin-fw
+#: plugin-fw/templates/metaboxes/types/contactform.php:130
+#: plugin-fw/templates/metaboxes/types/contactform.php:322
+msgid "Error Message"
+msgstr ""
+
+# @ yith-plugin-fw
+#: plugin-fw/templates/metaboxes/types/contactform.php:134
+#: plugin-fw/templates/metaboxes/types/contactform.php:326
+msgid "Insert the error message for validation."
+msgstr ""
+
+# @ yith-plugin-fw
+#: plugin-fw/templates/metaboxes/types/contactform.php:139
+#: plugin-fw/templates/metaboxes/types/contactform.php:331
+msgid "Required"
+msgstr ""
+
+# @ yith-plugin-fw
+#: plugin-fw/templates/metaboxes/types/contactform.php:143
+#: plugin-fw/templates/metaboxes/types/contactform.php:335
+msgid "Select this option if it must be required."
+msgstr ""
+
+# @ yith-plugin-fw
+#: plugin-fw/templates/metaboxes/types/contactform.php:152
+#: plugin-fw/templates/metaboxes/types/contactform.php:344
+msgid "Select this option if the email must be valid."
+msgstr ""
+
+# @ yith-plugin-fw
+#: plugin-fw/templates/metaboxes/types/contactform.php:157
+#: plugin-fw/templates/metaboxes/types/contactform.php:349
+msgid "Reply To"
+msgstr ""
+
+# @ yith-plugin-fw
+#: plugin-fw/templates/metaboxes/types/contactform.php:161
+#: plugin-fw/templates/metaboxes/types/contactform.php:353
+msgid "Select this if it is the email you can reply to."
+msgstr ""
+
+# @ yith-plugin-fw
+#: plugin-fw/templates/metaboxes/types/contactform.php:166
+#: plugin-fw/templates/metaboxes/types/contactform.php:358
+msgid "Class"
+msgstr ""
+
+# @ yith-plugin-fw
+#: plugin-fw/templates/metaboxes/types/contactform.php:170
+#: plugin-fw/templates/metaboxes/types/contactform.php:362
+msgid ""
+"Insert additional class(es) (separated by commas) for more personalization."
+msgstr ""
+
+# @ yith-plugin-fw
+#: plugin-fw/templates/metaboxes/types/contactform.php:175
+#: plugin-fw/templates/metaboxes/types/contactform.php:367
+msgid "Icon"
+msgstr ""
+
+# @ yith-plugin-fw
+#: plugin-fw/templates/metaboxes/types/contactform.php:203
+#: plugin-fw/templates/metaboxes/types/contactform.php:391
+#: plugin-fw/templates/metaboxes/types/icon-list.php:69
+#: plugin-fw/templates/metaboxes/types/select-icon.php:33
+#: plugin-fw/templates/metaboxes/types/upload.php:21
+#: plugin-fw/templates/panel/types/upload.php:31
+#: plugin-fw/templates/panel/woocommerce/woocommerce-upload.php:40
+msgid "Upload"
+msgstr ""
+
+# @ yith-plugin-fw
+#: plugin-fw/templates/metaboxes/types/contactform.php:209
+#: plugin-fw/templates/metaboxes/types/contactform.php:397
+#: plugin-fw/templates/metaboxes/types/icon-list.php:75
+#: plugin-fw/templates/metaboxes/types/select-icon.php:39
+msgid "Image preview"
+msgstr ""
+
+# @ yith-plugin-fw
+#: plugin-fw/templates/metaboxes/types/contactform.php:217
+#: plugin-fw/templates/metaboxes/types/contactform.php:405
+msgid "Insert an icon for more personalization."
+msgstr ""
+
+# @ yith-plugin-fw
+#: plugin-fw/templates/metaboxes/types/contactform.php:222
+#: plugin-fw/templates/metaboxes/types/contactform.php:409
+msgid "Width"
+msgstr ""
+
+# @ yith-plugin-fw
+#: plugin-fw/templates/metaboxes/types/contactform.php:247
+#: plugin-fw/templates/metaboxes/types/contactform.php:421
+msgid "Set field length."
+msgstr ""
+
+# @ yith-plugin-fw
+#: plugin-fw/templates/metaboxes/types/customtabs.php:28
+msgid "Close all"
+msgstr ""
+
+# @ yith-plugin-fw
+#: plugin-fw/templates/metaboxes/types/customtabs.php:28
+msgid "Expand all"
+msgstr ""
+
+# @ yith-plugin-fw
+#: plugin-fw/templates/metaboxes/types/customtabs.php:52
+#: plugin-fw/templates/metaboxes/types/customtabs.php:95
+msgid "Value"
+msgstr ""
+
+# @ yith-plugin-fw
+#: plugin-fw/templates/metaboxes/types/customtabs.php:53
+#: plugin-fw/templates/metaboxes/types/customtabs.php:96
+msgid "Content of the tab. (HTML is supported)"
+msgstr ""
+
+# @ yith-plugin-fw
+#: plugin-fw/templates/metaboxes/types/customtabs.php:65
+msgid "Add custom product tab"
+msgstr ""
+
+# @ yith-plugin-fw
+#: plugin-fw/templates/metaboxes/types/customtabs.php:107
+msgid "Do you want to remove the custom tab?"
+msgstr ""
+
+# @ yith-plugin-fw
+#: plugin-fw/templates/metaboxes/types/icon-list.php:89
+#, php-format
+msgid "(Default: %s <img src=\"%s\"/>)"
+msgstr ""
+
+# @ yith-plugin-fw
+#: plugin-fw/templates/metaboxes/types/icon-list.php:91
+#, php-format
+msgid "(Default: <i %s></i> )"
+msgstr ""
+
+# @ yith-plugin-fw
+#: plugin-fw/templates/metaboxes/types/image-gallery.php:40
+#: plugin-fw/templates/metaboxes/types/image-gallery.php:45
+#: plugin-fw/templates/metaboxes/types/images.php:38
+#: plugin-fw/templates/metaboxes/types/images.php:64
+msgid "Delete image"
+msgstr ""
+
+# @ yith-plugin-fw
+#: plugin-fw/templates/metaboxes/types/image-gallery.php:45
+msgid "Add Images to Gallery"
+msgstr ""
+
+# @ yith-plugin-fw
+#: plugin-fw/templates/metaboxes/types/image-gallery.php:45
+msgid "Add to gallery"
+msgstr ""
+
+# @ yith-plugin-fw
+#: plugin-fw/templates/metaboxes/types/image-gallery.php:45
+msgid "Add images"
+msgstr ""
+
+# @ yith-plugin-fw
+#: plugin-fw/templates/metaboxes/types/image-gallery.php:45
+msgid "Delete"
+msgstr ""
+
+# @ yith-plugin-fw
+#: plugin-fw/templates/metaboxes/types/images.php:42
+msgid "Upload new images"
+msgstr ""
+
+# @ yith-plugin-fw
+#: plugin-fw/templates/metaboxes/types/images.php:75
+msgid "Are you sure you want to remove this image?"
+msgstr ""
+
+# @ yith-plugin-fw
+#: plugin-fw/templates/metaboxes/types/sidebar-layout.php:25
+#: plugin-fw/templates/metaboxes/types/sidebars.php:36
+msgid "Left sidebar"
+msgstr ""
+
+# @ yith-plugin-fw
+#: plugin-fw/templates/metaboxes/types/sidebar-layout.php:28
+#: plugin-fw/templates/metaboxes/types/sidebars.php:42
+#: plugin-fw/templates/metaboxes/types/sidebars.php:45
+msgid "No sidebar"
+msgstr ""
+
+# @ yith-plugin-fw
+#: plugin-fw/templates/metaboxes/types/sidebar-layout.php:31
+#: plugin-fw/templates/metaboxes/types/sidebars.php:39
+msgid "Right sidebar"
+msgstr ""
+
+# @ yith-plugin-fw
+#: plugin-fw/templates/metaboxes/types/sidebar-layout.php:34
+#: plugin-fw/templates/metaboxes/types/sidebars.php:53
+#: plugin-fw/templates/metaboxes/types/sidebars.php:64
+msgid "Choose a sidebar"
+msgstr ""
+
+# @ yith-plugin-fw
+#: plugin-fw/templates/metaboxes/types/sidebars.php:51
+msgid "Left Sidebar"
+msgstr ""
+
+# @ yith-plugin-fw
+#: plugin-fw/templates/metaboxes/types/sidebars.php:62
+msgid "Right Sidebar"
+msgstr ""
+
+# @ yith-plugin-fw
+#: plugin-fw/templates/metaboxes/types/typography.php:42
+msgid "px"
+msgstr ""
+
+# @ yith-plugin-fw
+#: plugin-fw/templates/metaboxes/types/typography.php:43
+msgid "em"
+msgstr ""
+
+# @ yith-plugin-fw
+#: plugin-fw/templates/metaboxes/types/typography.php:44
+msgid "pt"
+msgstr ""
+
+# @ yith-plugin-fw
+#: plugin-fw/templates/metaboxes/types/typography.php:45
+msgid "rem"
+msgstr ""
+
+# @ yith-plugin-fw
+#: plugin-fw/templates/metaboxes/types/typography.php:59
+#: plugin-fw/templates/metaboxes/types/typography.php:153
+#: plugin-fw/templates/metaboxes/types/typography.php:217
+msgid "Web fonts"
+msgstr ""
+
+# @ yith-plugin-fw
+#: plugin-fw/templates/metaboxes/types/typography.php:71
+msgid "Google fonts"
+msgstr ""
+
+# @ yith-plugin-fw
+#: plugin-fw/templates/metaboxes/types/typography.php:96
+msgid "Regular"
+msgstr ""
+
+# @ yith-plugin-fw
+#: plugin-fw/templates/metaboxes/types/typography.php:97
+msgid "Bold"
+msgstr ""
+
+# @ yith-plugin-fw
+#: plugin-fw/templates/metaboxes/types/typography.php:98
+msgid "Extra bold"
+msgstr ""
+
+# @ yith-plugin-fw
+#: plugin-fw/templates/metaboxes/types/typography.php:99
+msgid "Italic"
+msgstr ""
+
+# @ yith-plugin-fw
+#: plugin-fw/templates/metaboxes/types/typography.php:100
+msgid "Italic bold"
+msgstr ""
+
+# @ yit
+#: plugin-fw/templates/panel/sidebar/widgets/widgets.php:17
+msgid "Join the club"
+msgstr ""
+
+# @ yit
+#: plugin-fw/templates/panel/sidebar/widgets/widgets.php:24
+msgid "Despacho Theme - 100% FREE"
+msgstr ""
+
+# @ yit
+#: plugin-fw/templates/panel/sidebar/widgets/widgets.php:28
+msgid "FREE!"
+msgstr ""
+
+# @ yit
+#: plugin-fw/templates/panel/sidebar/widgets/widgets.php:34
+msgid "Important Links"
+msgstr ""
+
+# @ yith-plugin-fw
+#: plugin-fw/templates/panel/types/upload.php:32
+msgid "Reset"
+msgstr ""
+
+# @ yith-plugin-fw
+#: plugin-fw/templates/panel/woocommerce/woocommerce-form.php:18
+msgid "Reset Defaults"
+msgstr ""
+
+# @ yith-woocommerce-request-a-quote
+#: plugin-options/form-options.php:23
+msgid "Default"
+msgstr "Standard"
+
+# @ yith-woocommerce-request-a-quote
+#: plugin-options/form-options.php:27
+msgid "YIT Contact Form"
+msgstr "YIT Contact Form"
+
+# @ yith-woocommerce-request-a-quote
+#: plugin-options/form-options.php:31
+msgid "Contact Form 7"
+msgstr "Contact Form 7"
+
+#: plugin-options/form-options.php:35
+msgid "Gravity Forms"
+msgstr ""
+
+# @ yith-woocommerce-request-a-quote
+#: plugin-options/form-options.php:44
+msgid "Request form"
+msgstr "Skjematype"
+
+# @ yith-woocommerce-request-a-quote
+#: plugin-options/form-options.php:46
+msgid ""
+"Choose one. You can also add forms from YIT Contact Form or Contact Form 7 "
+"that must be installed and activated."
+msgstr ""
+"Velg et skjema. Du kan også legge til skjemaer fra YIT Contact Form eller "
+"Contact Form 7 som da må være installert og aktivert."
+
+# @ yith-woocommerce-request-a-quote
+#: plugin-options/form-options.php:55 plugin-options/form-options.php:70
+#: plugin-options/form-options.php:82 plugin-options/form-options.php:94
+#: plugin-options/form-options.php:103
+msgid "Choose the form to display"
+msgstr "Velg skjemaet som skal brukes"
+
+# @ yith-woocommerce-request-a-quote
+#: plugin-options/form-options.php:112
+msgid ""
+"To use this feature, YIT Contact Form or Contact Form 7 must be installed "
+"and activated."
+msgstr ""
+"Dersom du vil bruke denne funksjonen, må YIT Contact Form eller Contact Form "
+"7 være installert og aktivert."
+
+# @ yith-woocommerce-request-a-quote
+#: plugin-options/form-options.php:118
+msgid "Form settings"
+msgstr "Skjemainnstillinger"
+
+# @ yith-woocommerce-request-a-quote
+#: plugin-options/form-options.php:152 plugin-options/form-options.php:182
+#: plugin-options/form-options.php:212
+msgid "Additional text field for default form"
+msgstr "Ekstra tekstfelt for standardskjemaet"
+
+# @ yith-woocommerce-request-a-quote
+#: plugin-options/form-options.php:162 plugin-options/form-options.php:192
+msgid "Label"
+msgstr "Etikett"
+
+# @ yith-woocommerce-request-a-quote
+#: plugin-options/form-options.php:172 plugin-options/form-options.php:202
+#: plugin-options/form-options.php:232 plugin-options/form-options.php:272
+msgid "Required Field"
+msgstr "Obligatorisk felt"
+
+# @ yith-woocommerce-request-a-quote
+#: plugin-options/form-options.php:222
+msgid "Additional text field label for default form"
+msgstr "Etikett for tekstfeltet"
+
+# @ yith-woocommerce-request-a-quote
+#: plugin-options/form-options.php:241
+msgid "Additional upload file field for default form"
+msgstr "Ekstra opplastningsfelt for standardskjemaet"
+
+# @ yith-woocommerce-request-a-quote
+#: plugin-options/form-options.php:251
+msgid "Additional upload field label for default form"
+msgstr "Etikett for opplastningsfeltet"
+
+# @ yith-woocommerce-request-a-quote
+#: plugin-options/form-options.php:257
+msgid "Upload a file"
+msgstr "Last opp en fil"
+
+# @ yith-woocommerce-request-a-quote
+#: plugin-options/form-options.php:262
+msgid "Enable registration on the \"Request a Quote\" page"
+msgstr "Aktiver konto-registrering på \"Innhent pristilbud\" siden"
+
+# @ yith-woocommerce-request-a-quote
+#: plugin-options/form-options.php:288
+msgid "Actions"
+msgstr "Handlinger"
+
+# @ yith-woocommerce-request-a-quote
+#: plugin-options/form-options.php:295
+msgid "Show this message after a quote request is sent"
+msgstr "Vis denne meldingen etter at en prisforespørsel er sendt"
+
+# @ yith-woocommerce-request-a-quote
+#: plugin-options/form-options.php:300
+msgid "Your request has been sent successfully."
+msgstr "Din forespørsel har blitt sendt."
+
+# @ yith-woocommerce-request-a-quote
+#: plugin-options/form-options.php:304
+msgid "Show request details after it has been submitted"
+msgstr "Vis detaljene i forespørselen etter at den har blitt sendt"
+
+#: plugin-options/form-options.php:305
+msgid "If checked, the link of the quote details will be showed"
+msgstr ""
+
+# @ yith-woocommerce-request-a-quote
+#: plugin-options/form-options.php:313
+msgid "Show this text to lead users to Details page"
+msgstr "Vis denne teksten for å lede kundene til siden for detaljer"
+
+# @ yith-woocommerce-request-a-quote
+#: plugin-options/form-options.php:319
+msgid "You can see details at:"
+msgstr "Du kan se detaljene her:"
+
+# @ yith-woocommerce-request-a-quote
+#: plugin-options/form-options.php:323
+msgid "Activate Thank-you page"
+msgstr "Aktiver takkesiden"
+
+# @ yith-woocommerce-request-a-quote
+#: plugin-options/form-options.php:324
+msgid ""
+"If checked, after submitting a request, customers will be redirected to the "
+"Thank-you page"
+msgstr ""
+"Dersom krysset av, etter å ha sendt en forespørsel, vil kundene bli "
+"omdirigert til takkesiden."
+
+# @ yith-woocommerce-request-a-quote
+#: plugin-options/form-options.php:332
+msgid "Select your Thank-you page"
+msgstr "Velg en takkeside"
+
+# @ yith-woocommerce-request-a-quote
+#: plugin-options/form-options.php:350
+msgid "Email settings"
+msgstr "E-postinnstillinger"
+
+# @ yith-woocommerce-request-a-quote
+#: plugin-options/form-options.php:357
+msgid "Link to quote request details to be shown in \"Request a Quote\" email"
+msgstr ""
+"Link til detaljene i prisforespørsel, som skal vises i \"Innhent pristilbud"
+"\" e-posten."
+
+# @ yith-woocommerce-request-a-quote
+#: plugin-options/form-options.php:362
+msgid "Quote request details"
+msgstr "Detaljer i prisforespørsel"
+
+# @ yith-woocommerce-request-a-quote
+#: plugin-options/form-options.php:363
+msgid "Quote creation page (admin)"
+msgstr "Arbeide med tilbud (admin)"
+
+# @ yith-woocommerce-request-a-quote
+#: plugin-options/metabox/ywraq-metabox-order.php:53
+msgid "Billing Address"
+msgstr "Faktureringsadresse"
+
+# @ yith-woocommerce-request-a-quote
+#: plugin-options/metabox/ywraq-metabox-order.php:57
+msgid "Billing Phone"
+msgstr "Telefon"
+
+# @ yith-woocommerce-request-a-quote
+#: plugin-options/metabox/ywraq-metabox-order.php:61
+msgid "Billing Vat"
+msgstr "MVA nr."
+
+# @ yith-woocommerce-request-a-quote
+#: plugin-options/metabox/ywraq-metabox-order.php:65
+#: templates/request-quote-form.php:82
+msgid "Message"
+msgstr "Melding"
+
+# @ yith-woocommerce-request-a-quote
+#: plugin-options/metabox/ywraq-metabox-order.php:81
+#: plugin-options/metabox/ywraq-metabox-order.php:85
+msgid "Attachment"
+msgstr "Vedlegg"
+
+# @ yith-woocommerce-request-a-quote
+#: plugin-options/metabox/ywraq-metabox-order.php:103
+msgid "Request a Quote Order Settings"
+msgstr "Ordreinnstillinger for pristilbud"
+
+#: plugin-options/metabox/ywraq-metabox-order.php:118
+msgid "Customer's name"
+msgstr ""
+
+#: plugin-options/metabox/ywraq-metabox-order.php:125
+msgid "Customer's email"
+msgstr ""
+
+# @ yith-woocommerce-request-a-quote
+#: plugin-options/metabox/ywraq-metabox-order.php:132
+#: templates/emails/plain/request-quote.php:26
+#: templates/emails/request-quote.php:36
+msgid "Customer's message"
+msgstr "Kundens melding"
+
+# @ yith-woocommerce-request-a-quote
+#: plugin-options/metabox/ywraq-metabox-order.php:143
+#: plugin-options/metabox/ywraq-metabox-order.php:144
+#: plugin-options/metabox/ywraq-metabox-order.php:149
+msgid "Additional email content"
+msgstr "Ekstra e-post innhold"
+
+# @ yith-woocommerce-request-a-quote
+#: plugin-options/metabox/ywraq-metabox-order.php:157
+#: plugin-options/metabox/ywraq-metabox-order.php:165
+#: plugin-options/metabox/ywraq-metabox-order.php:173
+msgid "Customer's additional field"
+msgstr "Kundens ekstrafelter"
+
+# @ yith-woocommerce-request-a-quote
+#: plugin-options/metabox/ywraq-metabox-order.php:181
+msgid "Customer's attachment"
+msgstr "Kundens vedlegg"
+
+# @ yith-woocommerce-request-a-quote
+#: plugin-options/metabox/ywraq-metabox-order.php:196
+msgid "Attach message to the quote before the table list (optional)"
+msgstr "Legg til en melding i tilbudet før oversikten (valgfritt)"
+
+# @ yith-woocommerce-request-a-quote
+#: plugin-options/metabox/ywraq-metabox-order.php:198
+msgid "Write a message that will be attached to the quote"
+msgstr "Skriv inn en melding slik den skal fremkomme i tilbudet"
+
+# @ yith-woocommerce-request-a-quote
+#: plugin-options/metabox/ywraq-metabox-order.php:204
+msgid "Attach message to the quote after the table list (optional)"
+msgstr "Legg til en melding i tilbudet etter oversikten (valgfritt)"
+
+# @ yith-woocommerce-request-a-quote
+#: plugin-options/metabox/ywraq-metabox-order.php:206
+msgid "Write a message that will be attached to the quote after the list"
+msgstr ""
+"Skriv inn en melding slik den skal fremkomme i tilbudet, etter oversikten"
+
+# @ yith-woocommerce-request-a-quote
+#: plugin-options/metabox/ywraq-metabox-order.php:212
+msgid "Optional Attachment"
+msgstr "Valgfritt vedlegg"
+
+# @ yith-woocommerce-request-a-quote
+#: plugin-options/metabox/ywraq-metabox-order.php:214
+msgid "Use this field to add additional attachment to the email"
+msgstr "Bruk dette feltet for å legge til ekstra vedlegg til e-posten"
+
+# @ yith-woocommerce-request-a-quote
+#: plugin-options/metabox/ywraq-metabox-order.php:219
+msgid "Expire date (optional)"
+msgstr "Utløpsdato (valgfritt)"
+
+# @ yith-woocommerce-request-a-quote
+#: plugin-options/metabox/ywraq-metabox-order.php:220
+#: plugin-options/metabox/ywraq-metabox-order.php:263
+msgid "Set an expiration date for this quote"
+msgstr "Angi en utløpsdato for dette tilbudet"
+
+#: plugin-options/metabox/ywraq-metabox-order.php:229
+msgid "Override checkout fields"
+msgstr ""
+
+#: plugin-options/metabox/ywraq-metabox-order.php:231
+msgid "Select an option if you want override checkout fields"
+msgstr ""
+
+#: plugin-options/metabox/ywraq-metabox-order.php:234
+msgid "Do not override Billing and Shipping Info"
+msgstr ""
+
+#: plugin-options/metabox/ywraq-metabox-order.php:235
+msgid "Override Billing and Shipping Info"
+msgstr ""
+
+#: plugin-options/metabox/ywraq-metabox-order.php:236
+msgid "Override Billing Info"
+msgstr ""
+
+#: plugin-options/metabox/ywraq-metabox-order.php:237
+msgid "Override Shipping Info"
+msgstr ""
+
+#: plugin-options/metabox/ywraq-metabox-order.php:243
+msgid "Lock the editing of fields selected above"
+msgstr ""
+
+#: plugin-options/metabox/ywraq-metabox-order.php:245
+msgid ""
+"Check this option if you want disable the editing of the checkout fields"
+msgstr ""
+
+#: plugin-options/metabox/ywraq-metabox-order.php:252
+msgid "Override shipping"
+msgstr ""
+
+#: plugin-options/metabox/ywraq-metabox-order.php:254
+msgid "Check this option if you want use only the shipping method in the quote"
+msgstr ""
+
+#: plugin-options/metabox/ywraq-metabox-order.php:281
+msgid "Create PDF"
+msgstr ""
+
+#: plugin-options/metabox/ywraq-metabox-order.php:282
+msgid "View PDF"
+msgstr ""
+
+#: plugin-options/metabox/ywraq-metabox-order.php:285
+msgid "View Pdf"
+msgstr ""
+
+# @ yith-woocommerce-request-a-quote
+#: plugin-options/metabox/ywraq-metabox-order.php:295
+msgid "Send Quote"
+msgstr "Send tilbudet"
+
+# @ yith-woocommerce-request-a-quote
+#: plugin-options/metabox/ywraq-metabox.php:18
+msgid "Single Product Settings for quote requests"
+msgstr "Enkeltprodukt innstillinger for prisforespørsler"
+
+# @ yith-woocommerce-request-a-quote
+#: plugin-options/metabox/ywraq-metabox.php:27
+msgid "\"Add to quote\" button"
+msgstr "\"Innhent pristilbud\" knappen"
+
+# @ yith-woocommerce-request-a-quote
+#: plugin-options/metabox/ywraq-metabox.php:28
+msgid "Exclude this product from showing \"Add to quote\" button"
+msgstr "Ekskluder dette produktet fra vise \"Innhent pristilbud\" knappen"
+
+# @ yith-woocommerce-request-a-quote
+#: plugin-options/pdf-options.php:23
+msgid "PDF Quote settings"
+msgstr "PDF Innstillinger"
+
+#: plugin-options/pdf-options.php:29
+msgid "Allow creating PDF documents"
+msgstr ""
+
+#: plugin-options/pdf-options.php:39
+msgid "Allow PDF document download in My Account page"
+msgstr ""
+
+# @ yith-woocommerce-request-a-quote
+#: plugin-options/pdf-options.php:40
+msgid ""
+"If checked, a button \"Download PDF\" will be added in the quote detail page"
+msgstr ""
+"Dersom krysset av, en knapp \"Last ned PDF\" vil fremkomme i tilbudet på "
+"detaljsiden, under min konto."
+
+# @ yith-woocommerce-request-a-quote
+#: plugin-options/pdf-options.php:48
+msgid "Logo"
+msgstr "Logo"
+
+# @ yith-woocommerce-request-a-quote
+#: plugin-options/pdf-options.php:49
+msgid "Upload the logo you want to show in the PDF document"
+msgstr "Last opp logoen du ønsker å vise i PDF-dokumentet"
+
+# @ yith-woocommerce-request-a-quote
+#: plugin-options/pdf-options.php:57
+msgid "Sender Info in PDF file"
+msgstr "Informasjon om avsender"
+
+# @ yith-woocommerce-request-a-quote
+#: plugin-options/pdf-options.php:58
+msgid "Add sender information that have to be shown in the PDF document"
+msgstr "Skriv inn avsenderinformasjon som skal fremkomme i PDF-dokumentet"
+
+# @ yith-woocommerce-request-a-quote
+#: plugin-options/pdf-options.php:67
+msgid "Add general text on the footer of pdf document"
+msgstr "Skriv inn en generell bunntekst på pdf-dokument"
+
+# @ yith-woocommerce-request-a-quote
+#: plugin-options/pdf-options.php:77
+msgid "Show pagination"
+msgstr "Vis paginering"
+
+# @ yith-woocommerce-request-a-quote
+#: plugin-options/pdf-options.php:86
+msgid "Attach PDF quote to the email"
+msgstr "Legg ved PDF tilbud i e-post"
+
+# @ yith-woocommerce-request-a-quote
+#: plugin-options/pdf-options.php:87
+msgid "If checked, the quote will be sent as PDF attachment"
+msgstr "Dersom krysset av, vil tilbudet sendes som PDF-vedlegg til e-post."
+
+# @ yith-woocommerce-request-a-quote
+#: plugin-options/pdf-options.php:96
+msgid "Show Link  Accept/Reject"
+msgstr "Vis lenke Aksepter/Avvis"
+
+# @ yith-woocommerce-request-a-quote
+#: plugin-options/pdf-options.php:105
+msgid "Remove the list with products from the email"
+msgstr "Fjern listen med produkter fra e-post"
+
+# @ yith-woocommerce-request-a-quote
+#: plugin-options/pdf-options.php:106
+msgid "Hide quote in the email if it has been sent as PDF attachment"
+msgstr ""
+"Fjern listen med produkter i e-posten dersom tilbudet er vedlagt som PDF-"
+"dokument"
+
+# @ yith-woocommerce-request-a-quote
+#: plugin-options/quote-options.php:22
+msgid "Quote settings"
+msgstr "Tilbudsinnstillinger"
+
+# @ yith-woocommerce-request-a-quote
+#: plugin-options/quote-options.php:28
+msgid "Enable order creation"
+msgstr "Aktiver oppretting av ordre"
+
+# @ yith-woocommerce-request-a-quote
+#: plugin-options/quote-options.php:29
+msgid "If checked, the orders will be created. (Recommended)"
+msgstr "Dersom krysset av, vil ordre bli opprettet. (Anbefalt)"
+
+# @ yith-woocommerce-request-a-quote
+#: plugin-options/quote-options.php:37
+msgid "Show \"Accept\" link"
+msgstr "Vis \"Aksepter\" link"
+
+# @ yith-woocommerce-request-a-quote
+#: plugin-options/quote-options.php:38
+msgid "If checked, \"Accept\" link will be shown in the quote"
+msgstr "Dersom krysset av, vil en  \"Aksepter\" link bli vist i tilbudet."
+
+# @ yith-woocommerce-request-a-quote
+#: plugin-options/quote-options.php:46
+msgid "Write in the text for your \"Accept\" link"
+msgstr "Tekst i \"Aksepter\" link"
+
+#: plugin-options/quote-options.php:54
+msgid "Redirect page"
+msgstr ""
+
+# @ yith-woocommerce-request-a-quote
+#: plugin-options/quote-options.php:55
+msgid ""
+"Select the page where to redirect your users after the quote has been "
+"accepted"
+msgstr "Velg siden hvor til kundene skal omdirigeres etter en aksept."
+
+# @ yith-woocommerce-request-a-quote
+#: plugin-options/quote-options.php:66
+msgid "Show \"Reject\" link"
+msgstr "Vis \"Avvis\" link"
+
+# @ yith-woocommerce-request-a-quote
+#: plugin-options/quote-options.php:67
+msgid "If checked, \"Reject\" link will be shown in the quote"
+msgstr "Dersom krysset av, vil en  \"Avvis\" link bli vist i tilbudet."
+
+# @ yith-woocommerce-request-a-quote
+#: plugin-options/quote-options.php:75
+msgid "Write in the text for your \"Reject\" link"
+msgstr "Tekst i \"Avvis\" link"
+
+# @ yith-woocommerce-request-a-quote
+#: plugin-options/quote-options.php:85
+msgid "Generate quotes automatically"
+msgstr "Generer tilbud automatisk"
+
+# @ yith-woocommerce-request-a-quote
+#: plugin-options/quote-options.php:86
+msgid "If checked, an automatic quote will be generated and sent"
+msgstr ""
+"Dersom krysset av, vil tilbud genereres automatisk og sendes pr. e-post"
+
+# @ yith-woocommerce-request-a-quote
+#: plugin-options/quote-options.php:98
+msgid "Start a cron every"
+msgstr "Kjør en cron hver"
+
+# @ yith-woocommerce-request-a-quote
+#: plugin-options/quote-options.php:113
+msgid "Minutes"
+msgstr "Minutt"
+
+# @ yith-woocommerce-request-a-quote
+#: plugin-options/quote-options.php:114
+msgid "Hours"
+msgstr "Time"
+
+# @ yith-woocommerce-request-a-quote
+#: plugin-options/quote-options.php:115
+msgid "Days"
+msgstr "Dag"
+
+#: plugin-options/quote-options.php:125
+msgid "Add default shipping on quote"
+msgstr ""
+
+#: plugin-options/quote-options.php:126
+msgid "If checked the defaul shipping will be added to the quote"
+msgstr ""
+
+#: plugin-options/quote-options.php:135
+msgid "Enable the option to add multiple shipping cost"
+msgstr ""
+
+#: plugin-options/quote-options.php:136
+msgid ""
+"If checked, from the editor's quote, it is possible to add more shipping "
+"costs that will be summed at checkout"
+msgstr ""
+
+# @ yith-woocommerce-request-a-quote
+#: plugin-options/settings-options.php:18
+msgid "General settings"
+msgstr "Generelle innstillinger"
+
+# @ yith-woocommerce-request-a-quote
+#: plugin-options/settings-options.php:25
+msgid "Page contents: [yith_ywraq_request_quote]"
+msgstr "Sidens innhold: [yith_ywraq_request_quote]"
+
+# @ yith-woocommerce-request-a-quote
+#: plugin-options/settings-options.php:34
+msgid "Button Action after click"
+msgstr "Handling etter at knappen er klikket"
+
+# @ yith-woocommerce-request-a-quote
+#: plugin-options/settings-options.php:35
+msgid "After click the button \"Request a Quote\" go to the list page"
+msgstr ""
+"Etter at knappen \"Innhent pristilbud\" er klikket videresendes kunden til "
+"\"Innhent pristilbud\" siden"
+
+# @ yith-woocommerce-request-a-quote
+#: plugin-options/settings-options.php:42
+msgid "Show button in single product page"
+msgstr "Vis knappen i enkeltprodukt siden"
+
+# @ yith-woocommerce-request-a-quote
+#: plugin-options/settings-options.php:50
+msgid "Show button in other pages"
+msgstr "Vis knappen i andre sider"
+
+# @ yith-woocommerce-request-a-quote
+#: plugin-options/settings-options.php:58
+msgid "Hide button for selected products"
+msgstr "Skjul \"Innhent pristilibud\" knappen for valgte produkter"
+
+# @ yith-woocommerce-request-a-quote
+#: plugin-options/settings-options.php:59
+msgid "Exclude selected products (See tab \"Exclusions\")"
+msgstr "Ekskluder valgte produkter (Se fanen \"Ekskluderingsliste\")"
+
+# @ yith-woocommerce-request-a-quote
+#: plugin-options/settings-options.php:68
+msgid "Reverse exclusion list (Show button for selected products)"
+msgstr "Omvendt ekskluderingsliste (Vis knappen for valgte produkter)"
+
+#: plugin-options/settings-options.php:76
+msgid "Allow customers to request a quote even if the product is out of stock"
+msgstr ""
+
+#: plugin-options/settings-options.php:85
+msgid "Show button only on out of stock products "
+msgstr ""
+
+# @ yith-woocommerce-request-a-quote
+#: plugin-options/settings-options.php:98
+msgid "Product settings"
+msgstr "Produkt innstillinger"
+
+# @ yith-woocommerce-request-a-quote
+#: plugin-options/settings-options.php:104
+msgid "Hide \"Add to cart\" button"
+msgstr "Skjul \"Legg i kurven\" knappen"
+
+# @ yith-woocommerce-request-a-quote
+#: plugin-options/settings-options.php:112
+msgid "Hide price"
+msgstr "Skjul pris"
+
+# @ yith-woocommerce-request-a-quote
+#: plugin-options/settings-options.php:121
+msgid "Hide column total in quote list"
+msgstr "Skjul kolonnen for total i prisforespørsel"
+
+# @ yith-woocommerce-request-a-quote
+#: plugin-options/settings-options.php:136
+msgid "User settings"
+msgstr "Brukerinnstillinger"
+
+# @ yith-woocommerce-request-a-quote
+#: plugin-options/settings-options.php:142
+msgid "Show to"
+msgstr "Vis til"
+
+# @ yith-woocommerce-request-a-quote
+#: plugin-options/settings-options.php:147
+msgid "Guests and logged-in users"
+msgstr "Gjester og innloggede brukere"
+
+# @ yith-woocommerce-request-a-quote
+#: plugin-options/settings-options.php:148
+msgid "Guests"
+msgstr "Gjester"
+
+# @ yith-woocommerce-request-a-quote
+#: plugin-options/settings-options.php:149
+msgid "Logged-in users"
+msgstr "Innloggede brukere"
+
+# @ yith-woocommerce-request-a-quote
+#: plugin-options/settings-options.php:156
+msgid "User Role"
+msgstr "Bruker rettigheter"
+
+# @ yith-woocommerce-request-a-quote
+#: plugin-options/ywraq-layout-options.php:22
+msgid "Layout settings"
+msgstr "Innstillinger for utseende"
+
+# @ yith-woocommerce-request-a-quote
+#: plugin-options/ywraq-layout-options.php:28
+msgid "Button type"
+msgstr "Lenketype"
+
+# @ yith-woocommerce-request-a-quote
+#: plugin-options/ywraq-layout-options.php:33
+msgid "Link"
+msgstr "Lenke"
+
+# @ yith-woocommerce-request-a-quote
+#: plugin-options/ywraq-layout-options.php:34
+msgid "Button"
+msgstr "Knapp"
+
+# @ yith-woocommerce-request-a-quote
+#: plugin-options/ywraq-layout-options.php:40
+msgid "Button/Link text"
+msgstr "Knapp/Lenke tekst"
+
+# @ yith-woocommerce-request-a-quote
+#: plugin-options/ywraq-layout-options.php:44
+msgid "Add to quote"
+msgstr "Innhent pristilbud"
+
+# @ yith-woocommerce-request-a-quote
+#: plugin-options/ywraq-layout-options.php:49
+msgid "Button background color"
+msgstr "Knappens bakgrunnsfarge"
+
+# @ yith-woocommerce-request-a-quote
+#: plugin-options/ywraq-layout-options.php:57
+msgid "Button background color on hover "
+msgstr "Knappens bakgrunnsfarge ved \"mus over\" "
+
+# @ yith-woocommerce-request-a-quote
+#: plugin-options/ywraq-layout-options.php:65
+msgid "Button/Link text color"
+msgstr "Knapp/Lenke tekstfarge"
+
+# @ yith-woocommerce-request-a-quote
+#: plugin-options/ywraq-layout-options.php:73
+msgid "Button/Link text color hover"
+msgstr "Knapp/Lenke tekstfarge ved \"mus over\""
+
+#: plugin-options/ywraq-layout-options.php:81
+msgid "Show button next to \"Add to cart\" in single product page"
+msgstr ""
+
+#: plugin-options/ywraq-layout-options.php:82
+msgid ""
+"If checked, the button will be showed next to the Add to cart button in the "
+"single product page"
+msgstr ""
+
+# @ yith-woocommerce-request-a-quote
+#: plugin-options/ywraq-layout-options.php:96
+msgid "Data Settings"
+msgstr "Datainnstillinger"
+
+# @ yith-woocommerce-request-a-quote
+#: plugin-options/ywraq-layout-options.php:103
+msgid "Show SKU on list table"
+msgstr "Vis varenummer i \"Innhent pristilbud\" listen"
+
+# @ yith-woocommerce-request-a-quote
+#: plugin-options/ywraq-layout-options.php:104
+msgid ""
+"If checked, the sku will be added near the title of product in the request "
+"list"
+msgstr ""
+"Dersom krysset av, vil varenummeret fremkomme under produktnavnet i "
+"\"Innhent pristilibud\" listen."
+
+# @ yith-woocommerce-request-a-quote
+#: plugin-options/ywraq-layout-options.php:112
+msgid "Show preview thumbnail on email list table"
+msgstr "Vis miniatyrbilde i tilbuds e-posten"
+
+# @ yith-woocommerce-request-a-quote
+#: plugin-options/ywraq-layout-options.php:113
+msgid ""
+"If checked, the thumbnail will be added in the table of request and in the "
+"proposal email"
+msgstr ""
+"Dersom krysset av, vil et miniatyrbilde fremkomme i \"Innhent pristilibud\" "
+"listen og i tilbuds e-posten."
+
+# @ yith-woocommerce-request-a-quote
+#: plugin-options/ywraq-layout-options.php:121
+msgid "Show old price on list table"
+msgstr "Vis gammel pris i \"Innhent pristilbud\" listen"
+
+# @ yith-woocommerce-request-a-quote
+#: plugin-options/ywraq-layout-options.php:122
+msgid ""
+"If checked, the old price will be showed in the table of request and in the "
+"proposal email"
+msgstr ""
+"Dersom krysset av, vil den gamle prisen fremkomme i \"Innhent pristilibud\" "
+"listen og i tilbuds e-posten."
+
+# @ yith-woocommerce-request-a-quote
+#: plugin-options/ywraq-layout-options.php:130
+msgid "Show \"Return to Shop\" button"
+msgstr "Vis en \"Tilbake til katalogen\" knapp"
+
+# @ yith-woocommerce-request-a-quote
+#: plugin-options/ywraq-layout-options.php:131
+msgid ""
+"If checked, the \"Return to Shop\" button will be showed in the quote table"
+msgstr ""
+"Dersom krysset av, vil en \"Tilbake til katalogen\" knapp fremkomme på "
+"\"Innhent pristilbud\" siden."
+
+# @ yith-woocommerce-request-a-quote
+#: plugin-options/ywraq-layout-options.php:140
+msgid "\"Return to Shop\" button label"
+msgstr "Tekst på knappen"
+
+# @ yith-woocommerce-request-a-quote
+#: plugin-options/ywraq-layout-options.php:141
+msgid "\"Return to Shop\" label"
+msgstr "Tekst på \"Tilbake til katalogen\" knappen."
+
+# @ yith-woocommerce-request-a-quote
+#: plugin-options/ywraq-layout-options.php:146
+msgid "Return to Shop"
+msgstr "Tilbake til katalogen"
+
+# @ yith-woocommerce-request-a-quote
+#: plugin-options/ywraq-layout-options.php:151
+#: plugin-options/ywraq-layout-options.php:152
+msgid "\"Return to Shop\" URL"
+msgstr "\"Tilbake til katalogen\" nettstedsadresse."
+
+# @ yith-woocommerce-request-a-quote
+#: templates/add-to-quote.php:18
+msgid "The product is already in quote request list!"
+msgstr "Produktet er allerede lagt til i listen over prisforespørsler!"
+
+# @ yith-woocommerce-request-a-quote
+#: templates/admin/exclusions-table.php:34
+msgid "product"
+msgstr "produkt"
+
+# @ yith-woocommerce-request-a-quote
+#: templates/admin/exclusions-table.php:35
+msgid "products"
+msgstr "produkter"
+
+# @ yith-woocommerce-request-a-quote
+#: templates/admin/exclusions-table.php:56
+msgid "Hide \"Add to quote\""
+msgstr "Skjul \"Innhent pristilbud\""
+
+# @ yith-woocommerce-request-a-quote
+#: templates/admin/exclusions-table.php:88
+msgid "Remove from exclusions"
+msgstr "Fjern fra ekskludering"
+
+# @ yith-woocommerce-request-a-quote
+#: templates/admin/exclusions-table.php:91
+msgid "Edit product"
+msgstr "Rediger produktet"
+
+# @ yith-woocommerce-request-a-quote
+#: templates/admin/exclusions-table.php:97
+msgid "Yes"
+msgstr "Ja"
+
+# @ yith-woocommerce-request-a-quote
+#: templates/admin/exclusions-table.php:101
+msgid "No"
+msgstr "Nei"
+
+# @ yith-woocommerce-request-a-quote
+#: templates/admin/exclusions-table.php:110
+msgid "Remove from list"
+msgstr "Fjern fra listen"
+
+# @ yith-woocommerce-request-a-quote
+#: templates/admin/exclusions-table.php:145
+#, php-format
+msgid "%s product removed successfully"
+msgid_plural "%s products removed successfully"
+msgstr[0] "%s produkt ble fjernet"
+msgstr[1] "%s produkter ble fjernet"
+
+# @ yith-woocommerce-request-a-quote
+#: templates/admin/exclusions-table.php:209
+#, php-format
+msgid "%s product added successfully"
+msgid_plural "%s products added successfully"
+msgstr[0] "%s produkt ble lagt til"
+msgstr[1] "%s produkter ble lagt til"
+
+# @ yith-woocommerce-request-a-quote
+#: templates/admin/exclusions-table.php:214
+msgid "Product updated successfully"
+msgstr "Produktet ble oppdatert"
+
+# @ yith-woocommerce-request-a-quote
+#: templates/admin/exclusions-table.php:245
+msgid "Exclusion list"
+msgstr "Ekskluderingsliste"
+
+# @ yith-woocommerce-request-a-quote
+#: templates/admin/exclusions-table.php:255
+msgid "Add Products"
+msgstr "Legg til produkter"
+
+# @ yith-woocommerce-request-a-quote
+#: templates/admin/exclusions-table.php:276
+msgid "Selection type"
+msgstr "Valgmuligheter"
+
+# @ yith-woocommerce-request-a-quote
+#: templates/admin/exclusions-table.php:289
+msgid "Select by product"
+msgstr "Velg etter produkt"
+
+# @ yith-woocommerce-request-a-quote
+#: templates/admin/exclusions-table.php:299
+msgid "Select by category"
+msgstr "Velg etter kategori"
+
+# @ yith-woocommerce-request-a-quote
+#: templates/admin/exclusions-table.php:308
+msgid "Categories to exclude"
+msgstr "Kategorier å ekskludere"
+
+# @ yith-woocommerce-request-a-quote
+#: templates/admin/exclusions-table.php:316
+msgid "Search for a category&hellip;"
+msgstr "Søk etter en kategori&hellip;"
+
+# @ yith-woocommerce-request-a-quote
+#: templates/admin/exclusions-table.php:327
+msgid "Products to exclude"
+msgstr "Produkter å ekskludere"
+
+# @ yith-woocommerce-request-a-quote
+#: templates/admin/exclusions-table.php:338
+msgid "Search for a product&hellip;"
+msgstr "Søk etter et produkt&hellip;"
+
+# @ yith-woocommerce-request-a-quote
+#: templates/admin/exclusions-table.php:349
+msgid "Hide \"Add to quote\" button"
+msgstr "Skjul \"Innhent pristilbud\" knappen"
+
+# @ yith-woocommerce-request-a-quote
+#: templates/admin/exclusions-table.php:359
+msgid "Add product to exclusions"
+msgstr "Legg til produkter for ekskludering"
+
+# @ yith-woocommerce-request-a-quote
+#: templates/admin/exclusions-table.php:363
+msgid "Update product exclusion"
+msgstr "Oppdater produkt eksludering"
+
+# @ yith-woocommerce-request-a-quote
+#: templates/admin/exclusions-table.php:366
+msgid "Return to exclusion list"
+msgstr "Tilbake til ekskluderingslisten"
+
+# @ yith-woocommerce-request-a-quote
+#: templates/admin/exclusions-table.php:422
+msgid "Select at least one product"
+msgstr "Velg minst ett produkt"
+
+# @ yith-woocommerce-request-a-quote
+#: templates/admin/exclusions-table.php:426
+msgid "Select at least one category"
+msgstr "Velg minst en kategori"
+
+# @ yith-woocommerce-request-a-quote
+#: templates/admin/exclusions-table.php:432
+msgid "Select the option"
+msgstr "Velg alternativet"
+
+#: templates/emails/change-status.php:20
+#, php-format
+msgid "The Proposal #%s has been accepted"
+msgstr ""
+
+#: templates/emails/change-status.php:22
+#, php-format
+msgid "The Proposal #%s has been rejected"
+msgstr ""
+
+# @ yith-woocommerce-request-a-quote
+#: templates/emails/change-status.php:25 templates/emails/request-quote.php:31
+#, php-format
+msgid "You can see details here: <a href=\"%s\">#%s</a>"
+msgstr "Du kan se detaljene her: <a href=\"%s\">#%s</a>"
+
+# @ yith-woocommerce-request-a-quote
+#: templates/emails/plain/change-status.php:21
+#, php-format
+msgid "The Proposal #%d has been accepted"
+msgstr "Tilbudet #%d har blitt akseptert"
+
+# @ yith-woocommerce-request-a-quote
+#: templates/emails/plain/change-status.php:23
+#, php-format
+msgid "The Proposal #%d has been rejected"
+msgstr "Tilbudet #%d har blitt avvist"
+
+# @ yith-woocommerce-request-a-quote
+#: templates/emails/plain/quote.php:18
+#, php-format
+msgid "%s n. %d"
+msgstr "%s n. %d"
+
+# @ yith-woocommerce-request-a-quote
+#: templates/emails/plain/quote.php:22
+#, php-format
+msgid "Request date: %s"
+msgstr "Forespørselsdato: %s"
+
+# @ yith-woocommerce-request-a-quote
+#: templates/emails/plain/quote.php:25
+#, php-format
+msgid "Expiration date: %s"
+msgstr "Utløpsdato: %s"
+
+# @ yith-woocommerce-request-a-quote
+#: templates/emails/plain/quote.php:74
+msgid "Customer details"
+msgstr "Kunde detaljer"
+
+# @ yith-woocommerce-request-a-quote
+#: templates/emails/plain/quote.php:76
+#: templates/emails/plain/request-quote.php:33 templates/emails/quote.php:96
+#: templates/emails/request-quote.php:41
+msgid "Name:"
+msgstr "Navn:"
+
+# @ yith-woocommerce-request-a-quote
+#: templates/emails/plain/quote.php:78
+#: templates/emails/plain/request-quote.php:34 templates/emails/quote.php:97
+#: templates/emails/request-quote.php:42 templates/myaccount/view-quote.php:232
+msgid "Email:"
+msgstr "E-post:"
+
+# @ yith-woocommerce-request-a-quote
+#: templates/emails/plain/quote.php:87 templates/emails/quote.php:107
+msgid "Billing Address:"
+msgstr "Faktureringsadresse:"
+
+# @ yith-woocommerce-request-a-quote
+#: templates/emails/plain/quote.php:92 templates/emails/quote.php:110
+msgid "Billing Phone:"
+msgstr "Telefon:"
+
+# @ yith-woocommerce-request-a-quote
+#: templates/emails/plain/quote.php:97 templates/emails/quote.php:113
+msgid "Billing VAT:"
+msgstr "MVA nr."
+
+# @ yith-woocommerce-request-a-quote
+#: templates/emails/plain/request-quote.php:31 templates/emails/quote.php:94
+#: templates/emails/request-quote.php:39 templates/myaccount/view-quote.php:225
+msgid "Customer's details"
+msgstr "Kundens detaljer"
+
+# @ yith-woocommerce-request-a-quote
+#: templates/emails/plain/request-quote.php:37
+msgid "Customer's additional field:"
+msgstr "Kundens tilleggsfelter:"
+
+# @ yith-woocommerce-request-a-quote
+#: templates/emails/quote-table.php:29
+#: templates/emails/request-quote-table.php:28 templates/pdf/quote-table.php:36
+msgid "Preview"
+msgstr "Forhåndsvis"
+
+# @ yith-woocommerce-request-a-quote
+#: templates/emails/quote-table.php:32
+#: templates/emails/request-quote-table.php:31 templates/pdf/quote-table.php:40
+#: templates/request-quote-view.php:24
+msgid "Quantity"
+msgstr "Antall"
+
+# @ yith-woocommerce-request-a-quote
+#: templates/emails/quote-table.php:33
+#: templates/emails/request-quote-table.php:33 templates/pdf/quote-table.php:41
+msgid "Subtotal"
+msgstr "Delsum"
+
+#: templates/emails/quote.php:57
+#, php-format
+msgid "%s n. %s"
+msgstr ""
+
+# @ yith-woocommerce-request-a-quote
+#: templates/emails/quote.php:62 templates/myaccount/view-quote.php:76
+msgid "Request date"
+msgstr "Forespørselsdato"
+
+# @ yith-woocommerce-request-a-quote
+#: templates/emails/quote.php:64 templates/myaccount/view-quote.php:110
+#: templates/pdf/quote-header.php:66
+msgid "Expiration date"
+msgstr "Utløpsdato"
+
+# @ yith-woocommerce-request-a-quote
+#: templates/emails/request-quote-table.php:17
+#, php-format
+msgid "Request a Quote #%s"
+msgstr "Innhent pristilbud #%s"
+
+#: templates/emails/request-quote-table.php:110
+#: templates/request-quote-view.php:176
+msgid "Total:"
+msgstr ""
+
+# @ yith-woocommerce-request-a-quote
+#: templates/emails/request-quote.php:45
+msgid "Customer's additional fields"
+msgstr "Tilleggsinformasjon"
+
+# @ yith-woocommerce-request-a-quote
+#: templates/myaccount/my-quotes.php:37
+msgid "Recent Quotes"
+msgstr "Nylige prisforespørsler"
+
+# @ yith-woocommerce-request-a-quote
+#: templates/myaccount/my-quotes.php:46 templates/myaccount/my-quotes.php:78
+msgid "Status"
+msgstr "Status"
+
+# @ yith-woocommerce-request-a-quote
+#: templates/myaccount/my-quotes.php:48
+msgid "Quote"
+msgstr "Tilbud"
+
+# @ yith-woocommerce-request-a-quote
+#: templates/myaccount/my-quotes.php:49 templates/myaccount/my-quotes.php:86
+msgid "Date"
+msgstr "Dato"
+
+# @ yith-woocommerce-request-a-quote
+#: templates/myaccount/my-quotes.php:81
+msgid "Order Number"
+msgstr "Ordrenummer"
+
+# @ yith-woocommerce-request-a-quote
+#: templates/myaccount/my-quotes.php:98 templates/myaccount/view-quote.php:80
+msgid "Checkout"
+msgstr "Til kassen"
+
+# @ yith-woocommerce-request-a-quote
+#: templates/myaccount/my-quotes.php:123
+msgid "View"
+msgstr "Vis"
+
+# @ yith-woocommerce-request-a-quote
+#: templates/myaccount/my-quotes.php:145 templates/request-quote-message.php:15
+msgid "Yes, I want to reject the quote"
+msgstr "Ja, jeg ønsker å avvise dette tilbudet"
+
+# @ yith-woocommerce-request-a-quote
+#: templates/myaccount/my-quotes.php:146
+msgid "Close"
+msgstr "Lukk"
+
+#: templates/myaccount/my-quotes.php:150
+msgid "No quote request available."
+msgstr ""
+
+#: templates/myaccount/view-quote.php:31
+msgid "This Quote doesn't exist."
+msgstr ""
+
+# @ yith-woocommerce-request-a-quote
+#: templates/myaccount/view-quote.php:37
+msgid "You do not have permission to read the quote."
+msgstr "Du har ikke tillatelse til å lese tilbudet."
+
+# @ yith-woocommerce-request-a-quote
+#: templates/myaccount/view-quote.php:43
+msgid "This Quote was deleted by administrator."
+msgstr "Dette tilbudet var slettet av administratoren."
+
+# @ yith-woocommerce-request-a-quote
+#: templates/myaccount/view-quote.php:91 templates/myaccount/view-quote.php:98
+#: templates/myaccount/view-quote.php:104
+msgid "Download PDF"
+msgstr "Last ned PDF"
+
+# @ yith-woocommerce-request-a-quote
+#: templates/myaccount/view-quote.php:103
+msgid "Order Status:"
+msgstr "Ordrestatus:"
+
+# @ yith-woocommerce-request-a-quote
+#: templates/myaccount/view-quote.php:106
+msgid "Quote Details"
+msgstr "Prisforespørsel detaljer"
+
+# @ yith-woocommerce-request-a-quote
+#: templates/myaccount/view-quote.php:119 templates/request-quote-view.php:26
+msgid "Total"
+msgstr "Total"
+
+# @ yith-woocommerce-request-a-quote
+#: templates/myaccount/view-quote.php:236
+msgid "Telephone:"
+msgstr "Telefon:"
+
+# @ yith-woocommerce-request-a-quote
+#: templates/myaccount/view-quote.php:236
+msgid "Telephone"
+msgstr "Telefon"
+
+# @ yith-woocommerce-request-a-quote
+#: templates/myaccount/view-quote.php:251
+msgid "Additional Information"
+msgstr "Tilleggsinformasjon"
+
+# @ yith-woocommerce-request-a-quote
+#: templates/myaccount/view-quote.php:259
+msgid "Customer's Message:"
+msgstr "Kundens melding:"
+
+# @ yith-woocommerce-request-a-quote
+#: templates/myaccount/view-quote.php:277
+msgid "Administrator's Message:"
+msgstr "Administratorens melding:"
+
+# @ yith-woocommerce-request-a-quote
+#: templates/pdf/quote-footer.php:13
+msgid "Page"
+msgstr "Side"
+
+# @ yith-woocommerce-request-a-quote
+#: templates/pdf/quote-header.php:30
+msgid "From"
+msgstr "Fra"
+
+# @ yith-woocommerce-request-a-quote
+#: templates/pdf/quote-header.php:36
+msgid "Customer"
+msgstr "Kunde"
+
+#: templates/pdf/quote-table.php:39
+msgid "Unit Price"
+msgstr ""
+
+# @ yith-woocommerce-request-a-quote
+#: templates/request-quote-form.php:28
+msgid "Send the request"
+msgstr "Send forespørselen"
+
+# @ yith-woocommerce-request-a-quote
+#: templates/request-quote-form.php:83
+msgid "Notes on your request..."
+msgstr "Spesifiser din forespørsel..."
+
+# @ yith-woocommerce-request-a-quote
+#: templates/request-quote-form.php:86
+msgid "Create an account?"
+msgstr "Opprette konto?"
+
+# @ yith-woocommerce-request-a-quote
+#: templates/request-quote-form.php:90
+msgid "Send Your Request"
+msgstr "Send forespørselen"
+
+# @ yith-woocommerce-request-a-quote
+#: templates/request-quote-message.php:14
+#, php-format
+msgid "Are you sure you want to reject quote No. %d?"
+msgstr "Er du sikker på at du vil avvise tilbud nr. %d?"
+
+# @ yith-woocommerce-request-a-quote
+#: templates/request-quote-view.php:50 templates/widgets/mini-quote-list.php:53
+#: templates/widgets/quote-list.php:43
+msgid "Remove this item"
+msgstr "Fjern dette produktet"
+
+# @ yith-woocommerce-request-a-quote
+#: templates/request-quote-view.php:192
+msgid "Update List"
+msgstr "Oppdater listen"
+
+# @ yith-woocommerce-request-a-quote
+#: templates/request-quote.php:19
+msgid "You do not have access to this page"
+msgstr "Du har ikke tilgang til denne siden"
+
+# @ yith-woocommerce-request-a-quote
+#: templates/widgets/mini-quote-list.php:37 templates/widgets/quote-list.php:29
+msgid "No products in the list"
+msgstr "Ingen prisforespørsler i listen"
+
+# @ yith-woocommerce-request-a-quote
+#: templates/widgets/mini-quote-list.php:92 templates/widgets/quote-list.php:77
+msgid "View list"
+msgstr "Vis listen"
+
+# @ yith-woocommerce-request-a-quote
+#: yith-woocommerce-request-a-quote.php:107
+msgid ""
+"YITH Woocommerce Request A Quote is enabled but not effective. It requires "
+"WooCommerce in order to work."
+msgstr ""
+"YITH Woocommerce Request A Quote er aktivert, men ikke trådt i kraft. "
+"Tillegget krever WooCommerce for å fungere."
+
+# @ yith-woocommerce-request-a-quote
+#~ msgid "Customer Name"
+#~ msgstr "Kundens navn"
+
+# @ yith-woocommerce-request-a-quote
+#~ msgid "Email Address"
+#~ msgstr "E-postadresse"
+
+# @ yith-woocommerce-request-a-quote
+#~ msgid "Current Status: <span>%s</span>"
+#~ msgstr "Nåværende status: <span>%s</span>"
+
+# @ yith-woocommerce-request-a-quote
+#~ msgid "Customer's request"
+#~ msgstr "Kundens forespørsel"
+
+# @ yith-woocommerce-request-a-quote
+#~ msgid "Show button only for product out of stock"
+#~ msgstr "Vis knappen kun for utsolgte produkter"
+
+# @ yith-woocommerce-request-a-quote
+#~ msgid "Error %d: Unable to create order. Please try again."
+#~ msgstr "Feil %d: Kunne ikke opprette ordren. Vennligst, prøv på nytt."
+
+# @ yith-woocommerce-request-a-quote
+#~ msgid ""
+#~ "This field lets you edit email subject line. Leave it blank to use "
+#~ "default subject text: <code>%s</code>."
+#~ msgstr ""
+#~ "Dette feltet lar deg redigere emnefeltet. La det stå tomt for å bruke "
+#~ "standard emnetekst: <code>%s</code>."
+
+# @ yith-woocommerce-request-a-quote
+#~ msgid ""
+#~ "This field lets you modify the email subject line. Leave it blank to use "
+#~ "the default subject text: <code>%s</code>."
+#~ msgstr ""
+#~ "Dette feltet lar deg redigere emnefeltet. La det stå tomt for å bruke "
+#~ "standard emnetekst: <code>%s</code>."
+
+# @ yith-woocommerce-request-a-quote
+#~ msgid "Permitt to download the pdf document from my account"
+#~ msgstr "Tillat nedlastning av PDF-dokument fra min konto"
+
+# @ yith-woocommerce-request-a-quote
+#~ msgid "This Quote doesn't exists."
+#~ msgstr "Dette tilbudet eksisterer ikke."
+
+# @ yith-woocommerce-request-a-quote
+#~ msgid ""
+#~ "If checked, the link of the quote details will be showed in the quote"
+#~ msgstr ""
+#~ "Dersom krysset av, vil linken til detaljene i forespørselen bli vist."
+
+# @ yith-woocommerce-request-a-quote
+#~ msgid "After-accept page"
+#~ msgstr "Etter aksept side"

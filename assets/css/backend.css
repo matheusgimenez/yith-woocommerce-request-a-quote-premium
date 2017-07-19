@@ -1,0 +1,125 @@
+.widefat .column-hide_add_to_quote {
+    width: 20%;
+    text-align: center;
+}
+
+.widefat .column-hide_add_to_quote mark{
+    display: block;
+    text-indent: -9999px;
+    position: relative;
+    height: 1em;
+    width: 1em;
+    background: 0 0;
+    font-size: 1.4em;
+    margin: 0 auto;
+}
+
+
+.widefat .column-hide_add_to_quote mark.show:after,
+.widefat .column-hide_add_to_quote mark.hide:after{
+    font-family: WooCommerce;
+    speak: none;
+    font-weight: 400;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    margin: 0;
+    text-indent: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.widefat .column-hide_add_to_quote mark.hide:after{
+    content: "\e013";
+    color: #a00000;
+}
+
+.widefat .column-hide_add_to_quote mark.show:after{
+    content: "\e015";
+    color: #2ea2cc;
+}
+
+.widefat mark.ywraq-new.tips:after{
+    color: #999;
+}
+
+.widefat mark.ywraq-pending.tips:after{
+    color: #ffba00;
+}
+
+.widefat mark.ywraq-accepted.tips:after{
+    color: #56bb0f;
+}
+
+
+.widefat mark.ywraq-expired.tips:after{
+    color: #C8C8C8;
+}
+
+.widefat mark.ywraq-pending.tips:after,
+.widefat mark.ywraq-rejected.tips:after,
+.widefat mark.ywraq-expired.tips:after,
+.widefat mark.ywraq-accepted.tips:after,
+.widefat mark.ywraq-new.tips:after{
+    content: "\e603";
+    font-family: WooCommerce;
+    font-weight: 400;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    margin: 0;
+    text-indent: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+#poststuff h3 span {
+    font-weight: 400;
+}
+
+#yith-ywraq-metabox-order h2{
+    padding: 12px 24px;
+}
+#yith-ywraq-metabox-order h3{
+    font-size: 1em;
+    margin:0 10px !important;
+}
+
+tr.sub-option {
+    background: rgba(244, 244, 244, 0.43);
+}
+#yith-ywraq-metabox-order .inside{
+    padding: 0 24px 12px;
+}
+#yith-ywraq-metabox-order .metaboxes-tab div.tabs-panel {
+    padding: 0 12px;
+}
+
+#yith-ywraq-metabox-order input {
+    min-height: 28px;
+}
+#yith-ywraq-metabox-order .metaboxes-tab label{
+    color: #555;
+    line-height: 1.4em;
+}
+#yith-ywraq-metabox-order .metaboxes-tab span.desc.inline{
+    display: block;
+    line-height: normal;
+}
+#ywraq_pdf_file-container .desc.inline {
+    display: inline-block!important;
+}
+
+#yith-ywraq-metabox-order .tabs-panel{
+    border: 0;
+}

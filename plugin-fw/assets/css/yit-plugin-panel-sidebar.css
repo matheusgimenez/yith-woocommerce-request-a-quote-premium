@@ -1,0 +1,388 @@
+/*
+ * This file belongs to the YIT Plugin Framework.
+ *
+ * This source file is subject to the GNU GENERAL PUBLIC LICENSE (GPL 3.0)
+ * that is bundled with this package in the file LICENSE.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://www.gnu.org/licenses/gpl-3.0.txt
+ */
+
+/* === Panel Sidebar === */
+#yit-panel-sidebar {
+    width  : 275px;
+    float  : right;
+    margin : 10px 0 0 10px;
+}
+
+#yit-panel-sidebar.yith-panel-sidebar-hidden {
+    position : absolute;
+    top      : 0;
+    right    : 0;
+}
+
+#yit-panel-sidebar.yith-panel-sidebar-hidden #yit-panel-sidebar-widgets-container {
+    display : none;
+}
+
+.yit-panel-sidebar-widget-wrapper {
+    position : relative;
+    margin   : 10px 0 30px 0;
+}
+
+.yit-panel-sidebar-widget-container {
+    border-radius : 5px;
+    border        : 1px solid #ddd;
+    background    : #fff;
+    box-shadow    : 0 2px 1px -1px #ccc;
+    overflow      : hidden;
+}
+
+.yit-panel-sidebar-widget-container a {
+    text-decoration : none;
+}
+
+.yit-panel-sidebar-widget-container img.yit-panel-sidebar-widget-image {
+    width    : 100%;
+    position : relative;
+    bottom   : -5px;
+}
+
+.yit-panel-sidebar-widget-title {
+    padding        : 12px 10px;
+    background     : #f4f4f4;
+    font-size      : 10px;
+    text-transform : uppercase;
+    font-weight    : 700;
+}
+
+.yit-panel-sidebar-widget-title.dashicons {
+    width       : auto !important;
+    height      : auto !important;
+    display     : block;
+    font-family : "Open Sans", sans-serif;
+    text-align  : left;
+}
+
+.yit-panel-sidebar-widget-title.dashicons::before {
+    font-family    : "Dashicons";
+    font-size      : 18px;
+    display        : inline-block;
+    vertical-align : middle;
+    margin-right   : 10px;
+    font-weight    : normal;
+}
+
+.yit-panel-sidebar-widget-title.orange {
+    background : #ff643e;
+    color      : #fff;
+}
+
+.yit-panel-sidebar-widget-title.green {
+    background : #a3c401;
+    color      : #fff;
+}
+
+.yit-panel-sidebar-widget-title.red {
+    background : #e4313c;
+    color      : #fff;
+}
+
+.yit-panel-sidebar-widget-title.yellow {
+    background : #ffc400;
+    color      : #333;
+}
+
+.yit-panel-sidebar-widget-title.center {
+    text-align : center;
+}
+
+.yit-panel-sidebar-widget-title.right {
+    text-align : right;
+}
+
+.yit-panel-sidebar-widget-content {
+    padding : 15px;
+}
+
+.yit-panel-sidebar-widget-content p {
+    font-size   : 11px;
+    line-height : 18px;
+    margin      : 0;
+    text-align  : justify;
+}
+
+.yit-panel-sidebar-widget-badge.gift-tape {
+    color            : #000;
+    font-family      : "Open Sans", sans-serif;
+    box-sizing       : border-box;
+    position         : absolute;
+    background-color : transparent;
+    width            : 70px;
+    height           : 70px;
+    overflow         : hidden;
+    top              : 0;
+    right            : 0;
+}
+
+.yit-panel-sidebar-widget-badge.gift-tape div.yit-panel-sidebar-widget-badge-text {
+    background        : #ffd600;
+    background        : -webkit-linear-gradient(left, #fe8502, #ffe400); /* For Safari 5.1 to 6.0 */
+    background        : -o-linear-gradient(right, #fe8502, #ffe400); /* For Opera 11.1 to 12.0 */
+    background        : -moz-linear-gradient(right, #fe8502, #ffe400); /* For Firefox 3.6 to 15 */
+    background        : linear-gradient(to right, #fe8502, #ffe400); /* Standard syntax */
+    font-size         : 10px;
+    font-weight       : bold;
+    line-height       : 24px;
+    position          : absolute;
+    text-align        : center;
+    z-index           : 100;
+    -webkit-transform : rotate(45deg);
+    -ms-transform     : rotate(45deg);
+    transform         : rotate(45deg);
+    top               : 15px;
+    left              : -6px;
+    width             : 100px;
+    text-shadow       : 1px 1px 1px #fff;
+}
+
+img.yit-panel-sidebar-widget-despacho-image {
+    background : #ffffff;
+    background : -webkit-linear-gradient(#ffffff, #a5b7c5); /* For Safari 5.1 to 6.0 */
+    background : -o-linear-gradient(#ffffff, #a5b7c5); /* For Opera 11.1 to 12.0 */
+    background : -moz-linear-gradient(#ffffff, #a5b7c5); /* For Firefox 3.6 to 15 */
+    background : linear-gradient(#ffffff, #a5b7c5); /* Standard syntax */
+}
+
+/* ==== Buttons ==== */
+#yit-panel-sidebar .button {
+    color              : #ffffff;
+    border             : none;
+    background         : #666666;
+    -webkit-box-shadow : none;
+    box-shadow         : none;
+    vertical-align     : middle;
+    text-transform     : uppercase;
+    font-size          : 11px;
+    font-weight        : 700;
+    height             : 32px;
+    line-height        : 32px;
+    padding            : 0 18px 1px;
+}
+
+#yit-panel-sidebar .button.orange {
+    background : #ff6340;
+}
+
+#yit-panel-sidebar .button.green {
+    background : #a3c401;
+}
+
+#yit-panel-sidebar .button.red {
+    background : #e4313c;
+}
+
+#yit-panel-sidebar .button.yellow {
+    background : #ffc400;
+}
+
+/* === Title Icons === */
+#yit-panel-sidebar .yit-panel-sidebar-widget-icon:before {
+    content        : " ";
+    width          : 16px;
+    height         : 16px;
+    display        : inline-block;
+    vertical-align : middle;
+    margin-right   : 10px;
+}
+
+#yit-panel-sidebar .yit-panel-sidebar-widget-icon.link-icon:before {
+    background      : transparent url('../images/widgets/link-icon.png') no-repeat;
+    background-size : contain;
+}
+
+#yit-panel-sidebar .yit-panel-sidebar-widget-icon.info-icon:before {
+    background      : transparent url('../images/widgets/info-icon.png') no-repeat;
+    background-size : contain;
+}
+
+#yit-panel-sidebar .yit-panel-sidebar-widget-icon.box-icon:before {
+    background      : transparent url('../images/widgets/box-icon.png') no-repeat;
+    background-size : contain;
+}
+
+#yit-panel-sidebar .yit-panel-sidebar-widget-icon.box-white-icon:before {
+    background      : transparent url('../images/widgets/box-white-icon.png') no-repeat;
+    background-size : contain;
+}
+
+/* ==== Membership Widget ==== */
+#yit-panel-sidebar-membership-widget {
+
+}
+
+#yit-panel-sidebar-membership-widget .yit-panel-sidebar-widget-title {
+    text-align : center;
+}
+
+#yit-panel-sidebar-membership-widget .yit-panel-sidebar-widget-content {
+    background          : transparent url('../images/widgets/membership-bg.png') no-repeat;
+    background-position : 105% 160%;
+    background-size     : 50%;
+}
+
+#yit-panel-sidebar-membership-widget .membership-row {
+    margin-bottom: 20px;
+    clear  : both;
+    overflow: hidden;
+}
+
+#yit-panel-sidebar-membership-widget .membership-total-price {
+    font-size   : 25px;
+    font-weight : 700;
+    display     : block;
+    width       : 50%;
+    box-sizing  : border-box;
+    float       : left;
+    line-height : 37px;
+
+}
+
+#yit-panel-sidebar-membership-widget .membership-offer-text {
+    display        : block;
+    font-size      : 10px;
+    text-transform : uppercase;
+    width          : 50%;
+    line-height    : 14px;
+    box-sizing     : border-box;
+    float          : left;
+}
+
+#yit-panel-sidebar-membership-widget .membership-offer-text2 {
+    display        : block;
+    font-size      : 10px;
+    text-transform : uppercase;
+    text-align     : right;
+    vertical-align : middle;
+    float          : left;
+}
+
+#yit-panel-sidebar-membership-widget .membership-offer-sale-text {
+    display        : block;
+    font-size      : 22px;
+    color          : #ff6340;
+    text-transform : uppercase;
+    text-align     : left;
+    vertical-align : middle;
+    margin-left    : 6px;
+    font-weight    : 600;
+    float          : left;
+}
+
+#yit-panel-sidebar-membership-widget .membership-buttons {
+    text-align    : center;
+    margin-bottom : 10px;
+}
+
+/* ==== Important Links Widget ==== */
+#yit-panel-sidebar-links-widget .yit-panel-sidebar-widget-content {
+    background          : transparent url('../images/widgets/link-bg.png') no-repeat;
+    background-position : 110% 120%;
+    background-size     : 50%;
+}
+
+ul.yit-panel-sidebar-links-list {
+    margin : 0;
+}
+
+ul.yit-panel-sidebar-links-list li {
+    margin : 0 0 10px 0;
+}
+
+ul.yit-panel-sidebar-links-list li:before {
+    content      : " ";
+    width        : 15px;
+    height       : 13px;
+    display      : inline-block;
+    background   : transparent url('../images/ui-icons_454545_256x240.png') no-repeat -64px -144px;
+    margin-right : 7px;
+}
+
+/* === Sidebar Actions ===*/
+#yit-panel-sidebar-actions {
+    text-align : right;
+}
+
+.yit-panel-sidebar-action-title {
+    margin-right   : 5px;
+    text-transform : uppercase;
+    font-size      : 11px;
+}
+
+#yit-panel-sidebar-action-hide {
+    text-align : right;
+    cursor     : pointer;
+}
+
+.yit-panel-sidebar-action-hide-icon {
+    color         : #f4f4f4;
+    background    : #565656;
+    border-radius : 50%;
+}
+
+#yit-panel-sidebar-action-hide:hover .yit-panel-sidebar-action-title {
+    color : #000;
+}
+
+#yit-panel-sidebar-action-hide:hover .yit-panel-sidebar-action-hide-icon {
+    background : #000;
+}
+
+.hide-on-click .yit-panel-sidebar-action-hide-icon:before {
+    content : "\f139" !important;
+}
+
+/* === Responsive === */
+
+@media (min-width : 767px) {
+    #wpbody-content #yit-panel-sidebar {
+        margin-right : 15px;
+    }
+}
+
+@media (max-width : 767px) {
+    #yit-panel-sidebar {
+        width   : 275px;
+        margin  : 20px auto 0 auto;
+        float   : none;
+        display : block;
+    }
+
+    #yit-panel-sidebar.yith-panel-sidebar-hidden {
+        position : static;
+    }
+
+    #yit-panel-sidebar-actions {
+        text-align : center;
+    }
+
+    #yit-panel-sidebar-action-hide {
+        text-align : center;
+    }
+}
+
+@media (max-width : 480px) {
+
+}
+
+@media (min-width : 768px) and (max-width : 992px) {
+}
+
+@media (min-width : 980px) and (max-width : 1199px) {
+}
+
+@media (min-width : 1200px) {
+
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio : 1.5), only screen and (-o-min-device-pixel-ratio : 3/2), only screen and (min--moz-device-pixel-ratio : 1.5), only screen and (min-device-pixel-ratio : 1.5) {
+}
