@@ -914,6 +914,11 @@ if ( ! class_exists( 'YIT_Plugin_Panel' ) ) {
             }
         }
 
+        public function update_option_editor( $old_value, $value, $option ) {
+            if ( isset( $_REQUEST[ $option ] ) ) {
+                return $_REQUEST[ $option ];
+            }
+        }
 	    /**
 	     * Fire the action to print the custom tab
 	     *

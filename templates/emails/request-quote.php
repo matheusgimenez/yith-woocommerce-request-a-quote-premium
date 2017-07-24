@@ -14,7 +14,6 @@ $customer = yit_get_prop( $order, '_customer_user', true );
 $page_detail_admin = ( get_option('ywraq_quote_detail_link') == 'editor' ) ? true : false;
 $quote_number = apply_filters( 'ywraq_quote_number', $raq_data['order_id'] );
 do_action( 'woocommerce_email_header', $email_heading, $email );
-
 ?>
 
 <p><?php echo $email_description ?></p>
@@ -26,7 +25,33 @@ do_action( 'woocommerce_email_header', $email_heading, $email );
     ) );
 ?>
 <p></p>
-
+<?php 
+	$order_date = wc_format_datetime( $order->get_date_created() );
+?>
+<?php 
+ob_start();
+wc_get_template( 'emails/request-quote-table-to-copy.php', array(
+    'raq_data'      => $raq_data
+) );
+$products_table = ob_get_contents();
+ob_end_clean();
+?>
+<?php $shortcodes = array(
+	'[quote_user_email]'	=> $raq_data['user_email'],
+	'[quote_date]'			=> $order_date,
+	'[quote_user_name]'		=> $raq_data['user_name'],
+	'[quote_phone]'			=> $raq_data[ 'user_additional_field' ],
+	'[quote_address]'		=> 'precisa criar o field',
+	'[quote_list]'			=> $products_table
+	);
+$reply_mail = $raq_data['user_email'];
+$reply_mail_message = get_option( 'ywraq_email_template', '');
+foreach ( $shortcodes as $key => $value ) {
+	$reply_mail_message = str_replace( $key, $value, $reply_mail_message );
+}
+?>
+<strong>Conteudo para resposta do email</strong>
+<div style="width:100%;overflow:scroll;height:320px;"><?php echo $reply_mail_message;?></div>
 <?php if(  ( $customer != 0 && ( get_option( 'ywraq_enable_link_details' ) == "yes" && get_option( 'ywraq_enable_order_creation', 'yes' ) == 'yes' ) ) || ( $page_detail_admin &&  get_option( 'ywraq_enable_order_creation', 'yes' ) == 'yes' )): ?>
     <p><?php printf( __( 'You can see details here: <a href="%s">#%s</a>', 'yith-woocommerce-request-a-quote' ), YITH_YWRAQ_Order_Request()->get_view_order_url($order_id, $page_detail_admin), $quote_number ); ?></p>
 <?php endif ?>
@@ -58,7 +83,6 @@ do_action( 'woocommerce_email_header', $email_heading, $email );
 
 <?php endif ?>
 <?php
-echo get_option( 'ywraq_email_template', 'arrrrroz');
 do_action( 'woocommerce_email_footer', $email );
 
 ?>

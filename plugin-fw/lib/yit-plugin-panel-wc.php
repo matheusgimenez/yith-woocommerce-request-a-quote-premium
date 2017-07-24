@@ -92,6 +92,8 @@ if ( ! class_exists( 'YIT_Plugin_Panel_WooCommerce' ) ) {
                 add_action( 'woocommerce_admin_field_videobox', array( $this, 'add_videobox' ), 10, 1 );
 
                 add_action( 'woocommerce_admin_field_editor', array( $this, 'add_editor' ), 10, 1 );
+                
+                add_filter( 'pre_update_option_ywraq_email_template', array( $this, 'update_option_editor' ), 10, 3 );
 
                 /* WooCommerce 2.4 Support */
                 add_filter( 'admin_body_class', array( $this, 'admin_body_class' ) );
@@ -100,7 +102,6 @@ if ( ! class_exists( 'YIT_Plugin_Panel_WooCommerce' ) ) {
             /* add YIT Plugin sidebar */
             $this->sidebar = YIT_Plugin_Panel_Sidebar::instance( $this );
         }
-
 
         /**
          * Show a tabbed panel to setting page
