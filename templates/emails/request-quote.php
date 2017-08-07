@@ -52,7 +52,11 @@ foreach ( $shortcodes as $key => $value ) {
 ?>
 <strong>Conteudo para resposta do email</strong>
 <div style="width:100%;overflow:scroll;height:320px;"><?php echo $reply_mail_message;?></div>
-<?php if(  ( $customer != 0 && ( get_option( 'ywraq_enable_link_details' ) == "yes" && get_option( 'ywraq_enable_order_creation', 'yes' ) == 'yes' ) ) || ( $page_detail_admin &&  get_option( 'ywraq_enable_order_creation', 'yes' ) == 'yes' )): ?>
+<?php 
+$subject = 'Novo orçamento para encaminhar';
+
+wp_mail( $email->recipient, $subject, $reply_mail_message, $email->get_headers() );
+if(  ( $customer != 0 && ( get_option( 'ywraq_enable_link_details' ) == "yes" && get_option( 'ywraq_enable_order_creation', 'yes' ) == 'yes' ) ) || ( $page_detail_admin &&  get_option( 'ywraq_enable_order_creation', 'yes' ) == 'yes' )): ?>
     <p><?php printf( __( 'You can see details here: <a href="%s">#%s</a>', 'yith-woocommerce-request-a-quote' ), YITH_YWRAQ_Order_Request()->get_view_order_url($order_id, $page_detail_admin), $quote_number ); ?></p>
 <?php endif ?>
 
